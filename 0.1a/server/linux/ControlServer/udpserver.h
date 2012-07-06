@@ -69,7 +69,7 @@ public:
 			  int speed, angle;
 			  speed = recv_data[0];
 			  angle = recv_data[1];
-			  if (speed) > 0){drive = "Fwd";} else {drive = "Rev";}
+			  if (speed > 0){drive = "Fwd";} else {drive = "Rev";}
 			  if (angle > 0){direction = "Left";} else {direction = "Right";}
 			  //speed = recv_data[0] & 127;
 			  //angle = recv_data[1] & 127;
