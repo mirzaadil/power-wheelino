@@ -62,18 +62,17 @@ public:
 
 			  printf("\n(%s , %d) said : ",inet_ntoa(client_addr.sin_addr),
 										   ntohs(client_addr.sin_port));
-			  printf("%s\n", recv_data);
 			  string drive;
 			  string direction;
 			  
-			  int speed, angle;
-			  speed = recv_data[0];
-			  angle = recv_data[1];
+			  int speed = recv_data[0];
+			  int angle = recv_data[1];
+			  printf("%d - %d\n", speed,angle);
+
 			  if (speed > 0){drive = "Fwd";} else {drive = "Rev";}
 			  if (angle > 0){direction = "Left";} else {direction = "Right";}
-			  //speed = recv_data[0] & 127;
-			  //angle = recv_data[1] & 127;
-			  printf("\t %s @ %d and %s @ %d",
+			  
+			printf("\t %s @ %d and %s @ %d",
 					  drive.c_str(),
 					  speed,
 					  direction.c_str(),
