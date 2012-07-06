@@ -65,17 +65,20 @@ public:
 			  printf("%s\n", recv_data);
 			  string drive;
 			  string direction;
+			  
 			  int speed, angle;
-
-			  if ((recv_data[0] & 128) > 0){drive = "Fwd";} else {drive = "Rev";}
-			  if ((recv_data[1] & 128) > 0){direction = "Left";} else {direction = "Right";}
-			  speed = recv_data[0] & 127;
-			  angle = recv_data[1] & 127;
+			  speed = recv_data[0];
+			  angle = recv_data[1];
+			  if (speed) > 0){drive = "Fwd";} else {drive = "Rev";}
+			  if (angle > 0){direction = "Left";} else {direction = "Right";}
+			  //speed = recv_data[0] & 127;
+			  //angle = recv_data[1] & 127;
 			  printf("\t %s @ %d and %s @ %d",
 					  drive.c_str(),
 					  speed,
 					  direction.c_str(),
-					  angle);
+					  angle
+					);
 		  fflush(stdout);
 		  char * pointer = recv_data;
 		  return pointer;
