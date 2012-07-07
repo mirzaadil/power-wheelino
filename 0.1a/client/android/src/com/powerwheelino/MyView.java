@@ -23,31 +23,23 @@ public class MyView extends View {
   
  Paint paint;
  Path path;
- String messageStr;
- DatagramSocket s;;
- int server_port;
- InetAddress local;
- int msg_length;
- byte[] message;
+ UdpClient udp;
+ int boxwidth = 100;
+ int boxheight = 100;
+ float left;
+ float top;
+ float right;
+ float bottom;
  
- public MyView(Context context, int port, String server) {
+ public MyView(Context context, int port, String serverIp) {
   super(context);
-  messageStr = "hello android";
-  server_port = port;
-  try {
-	local = InetAddress.getByName(server);
-	s = new DatagramSocket();
-} catch (Exception e) {
-	// TODO Auto-generated catch block
-	e.printStackTrace();
-	Log.d("Powerwheelino",e.getStackTrace() + "error");
-	
-}
-  msg_length= messageStr.length();
-  message = messageStr.getBytes();
-  
   init();
-  
+  udp = new UdpClient(serverIp, port);
+  left = Math.round(getMeasuredWidth() *.75) - (boxwidth / 2);
+  top = Math.round(getMeasuredHeight() *.75) - (boxheight / 2);
+  right = Math.round(getMeasuredWidth() *.75) + (boxwidth / 2);
+  bottom = Math.round(getMeasuredHeight() *.75) + (boxheight / 2);
+
  }
  
  public MyView(Context context, AttributeSet attrs) {
@@ -70,16 +62,15 @@ public class MyView extends View {
  
  @Override
  protected void onDraw(Canvas canvas) {
-  // TODO Auto-generated method stub
-  super.onDraw(canvas);
-  
-  canvas.drawRect(20, 50, 150, 350, paint);
-  //canvas.drawRect(100, 100, 300, 400, paint);
-  //drawRect(left, top, right, bottom, paint)
-  float circlex = (float) (super.getWidth()*(.75));
-  float circley = (float) (super.getHeight()*(.75));
-  canvas.drawCircle(circlex, circley, 75, paint);
-  
+	  super.onDraw(canvas);
+	  	  
+	  canvas.drawRect(10, 10, 110, 210, paint);
+	  //canvas.drawRect(100, 100, 300, 400, paint);
+	  //drawRect(left, top, right, bottom, paint)
+	  float circlex = (float) (super.getWidth()*(.75));
+	  float circley = (float) (super.getHeight()*(.75));
+	  canvas.drawCircle(circlex, circley, 75, paint);
+	  
  
  }
  
@@ -93,21 +84,14 @@ public class MyView extends View {
 //	         break;
 //	     }
 //     }
-	        
-     
-     
-	try {
-		
-	     DatagramPacket p = new DatagramPacket(message, msg_length,local,server_port);
-	     s.send(p);
-	 	
-	} catch (Exception e) {
-		// TODO Auto-generated catch block
-		Log.d("Powerwheelino", e.getStackTrace() +"ERROR ");
-		e.printStackTrace();
-		return false;
+	         int tx = Math.round(event.getY());
+	         byte drive = (byte) (tx & 0x000000FF);
+	         
+	         int ty = Math.round(event.getX());
+	         byte steer = (byte) (ty & 0x000000FF);
+	         
+	         udp.sendData(drive, steer);
+	         return true;
 	}
-	return true;
- }
- 
+
 }

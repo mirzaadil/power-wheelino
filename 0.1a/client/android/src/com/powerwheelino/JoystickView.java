@@ -246,8 +246,8 @@ public class JoystickView extends View {
 		dimX = getMeasuredWidth();
 		dimY = getMeasuredHeight();
 
-		cX = dimX / 2;
-		cY = dimY / 2;
+//		cX = dimX / 2;
+//		cY = dimY / 2;
 		cX = (int) Math.round(dimX *.75);
 		cY = (int) Math.round(dimY *.75);
 		//bgRadius = dimX/2 - innerPadding;
