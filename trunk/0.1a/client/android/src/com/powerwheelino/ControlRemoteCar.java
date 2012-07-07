@@ -9,10 +9,10 @@ public class ControlRemoteCar extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        JoystickView joystick = new JoystickView(this);
-        setContentView(joystick);
-        //mainview = new MyView(this,12345,"192.168.1.101");
-        //setContentView(mainview);
+        //JoystickView joystick = new JoystickView(this);
+        //setContentView(joystick);
+        mainview = new MyView(this,50000,"192.168.1.128");
+        setContentView(mainview);
         
     }
     
