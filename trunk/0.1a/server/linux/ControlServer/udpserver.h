@@ -17,6 +17,8 @@ class udp_server {
 	socklen_t addr_len;
 
 	struct sockaddr_in server_addr , client_addr;
+
+	int rcvd;
 public:
 	udp_server(int portNum )
 	{
@@ -42,6 +44,7 @@ public:
 
 		printf("\nUDPServer Waiting for client on port %d", portNum);
 			fflush(stdout);
+		rcvd = 0;
 	}
 	char* listen() {
 		char recv_data[10];
@@ -59,20 +62,28 @@ public:
 
 
 			  recv_data[bytes_read] = '\0';
-
-			  printf("\n(%s , %d) said : ",inet_ntoa(client_addr.sin_addr),
-										   ntohs(client_addr.sin_port));
+			  if (rcvd == 0){
+			  	char line[10] = "Connected";
+			  	sendto(sock,line,9,0,(struct sockaddr*)&client_addr,sizeof(client_addr));
+				printf("\nSent Connection Message\n");
+			  }
+			  rcvd++;
+			  //printf("%d iteration\n",rcvd);
+			  if (rcvd > 1000){rcvd = 0;}	
+			  //printf("\r\n(%s , %d) said : ",inet_ntoa(client_addr.sin_addr),
+			  //				   ntohs(client_addr.sin_port)
+			  //	);
 			  string drive;
 			  string direction;
 			  
 			  int speed = recv_data[0];
 			  int angle = recv_data[1];
-			  printf("%d - %d\n", speed,angle);
+			  //printf("%d - %d\r\n", speed,angle);
 
-			  if (speed > 0){drive = "Fwd";} else {drive = "Rev";}
-			  if (angle > 0){direction = "Left";} else {direction = "Right";}
+			  if (speed > -1){drive = "Fwd";} else {drive = "Rev";}
+			  if (angle > -1){direction = "Right";} else {direction = "Left";}
 			  
-			printf("\t %s @ %d and %s @ %d",
+			printf("\t %s @ %d and %s @ %d\r\n\0",
 					  drive.c_str(),
 					  speed,
 					  direction.c_str(),
