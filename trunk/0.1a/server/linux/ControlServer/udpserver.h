@@ -43,57 +43,77 @@ public:
 			addr_len = sizeof(struct sockaddr);
 
 		printf("\nUDPServer Waiting for client on port %d", portNum);
-			fflush(stdout);
+		fflush(stdout);
 		rcvd = 0;
 	}
 	char* listen() {
 		char recv_data[10];
-		while (1)
-		{
+		while (1){
+			bool connected = true;
+			while (connected){
 
-			  bytes_read = recvfrom(
-					  	  	  sock,
-					  	  	  recv_data,
-					  	  	  2,
-					  	  	  0,
-							  (struct sockaddr *)&client_addr,
-							  &addr_len
-							);
+				  fd_set socks;
+				  struct timeval t;
+				  FD_ZERO (&socks);
+				  FD_SET(sock, &socks);
+				  t.tv_sec = 0;
+				  t.tv_usec = 100000;
+				  if (select (sock + 1, &socks, NULL, NULL, &t)){
+					  bytes_read = recvfrom(
+												  sock,
+												  recv_data,
+												  2,
+												  0,
+												  (struct sockaddr *)&client_addr,
+												  &addr_len
+												);
+				  } else {
+					  // read timeout
+					  printf("!");
+					  fflush(stdout);
+					  rcvd = 0;
+					  //char * tchar[] = {'\0','\0'};
+					  //  return tchar;		//return 0 position if datastream is lost
+					  break;
+
+				  }
 
 
-			  recv_data[bytes_read] = '\0';
-			  if (rcvd == 0){
-			  	char line[10] = "Connected";
-			  	sendto(sock,line,9,0,(struct sockaddr*)&client_addr,sizeof(client_addr));
-				printf("\nSent Connection Message\n");
-			  }
-			  rcvd++;
-			  //printf("%d iteration\n",rcvd);
-			  if (rcvd > 1000){rcvd = 0;}	
-			  //printf("\r\n(%s , %d) said : ",inet_ntoa(client_addr.sin_addr),
-			  //				   ntohs(client_addr.sin_port)
-			  //	);
-			  string drive;
-			  string direction;
-			  
-			  int speed = recv_data[0];
-			  int angle = recv_data[1];
-			  //printf("%d - %d\r\n", speed,angle);
+				  recv_data[bytes_read] = '\0';
+				  if (rcvd == 0){
+					char line[10] = "Connected";
+					usleep(5000);//microseconds
+					sendto(sock,line,9,0,(struct sockaddr*)&client_addr,sizeof(client_addr));
+					printf("\nSent Connection Message\n");
+				  }
+				  rcvd++;
+				  //printf("%d iteration\n",rcvd);
+				  if (rcvd > 1000){rcvd = 0;}
+				  //printf("\r\n(%s , %d) said : ",inet_ntoa(client_addr.sin_addr),
+				  //				   ntohs(client_addr.sin_port)
+				  //	);
+				  string drive;
+				  string direction;
 
-			  if (speed > -1){drive = "Fwd";} else {drive = "Rev";}
-			  if (angle > -1){direction = "Right";} else {direction = "Left";}
-			  
-			printf("\t %s @ %d and %s @ %d\r\n\0",
-					  drive.c_str(),
-					  speed,
-					  direction.c_str(),
-					  angle
-					);
-		  fflush(stdout);
-		  char * pointer = recv_data;
-		  return pointer;
+				  int speed = recv_data[0];
+				  int angle = recv_data[1];
+				  //printf("%d - %d\r\n", speed,angle);
+
+				  if (speed > -1){drive = "Fwd";} else {drive = "Rev";}
+				  if (angle > -1){direction = "Right";} else {direction = "Left";}
+
+				printf("\t %s @ %d and %s @ %d\r\n\0",
+						  drive.c_str(),
+						  speed,
+						  direction.c_str(),
+						  angle
+						);
+			  fflush(stdout);
+			  char * pointer = recv_data;
+			  return pointer;
 
 			}
+		}
 			return 0;
 	}
 };
