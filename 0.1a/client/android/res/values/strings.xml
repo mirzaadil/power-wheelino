@@ -3,5 +3,7 @@
 
     <string name="hello">Hello World, ControlRemoteCar!</string>
     <string name="app_name">PowerWheelino</string>
+    <string name="ipSettingsLabel">Server IP</string>
+    <string name="SaveButtonText">Save IP</string>
 
 </resources>
