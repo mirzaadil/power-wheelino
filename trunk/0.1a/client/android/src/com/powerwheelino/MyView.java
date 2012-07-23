@@ -63,7 +63,6 @@ public class MyView extends View {
  @Override
  protected void onDraw(Canvas canvas) {
 	  super.onDraw(canvas);
-	  	  
 	  canvas.drawRect(10, 10, 110, 210, paint);
 	  //canvas.drawRect(100, 100, 300, 400, paint);
 	  //drawRect(left, top, right, bottom, paint)
