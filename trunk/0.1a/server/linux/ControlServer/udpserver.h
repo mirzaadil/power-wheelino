@@ -12,52 +12,37 @@
 using namespace std;
 
 class udp_server {
+
+	//UDP Socket variables
 	int sock;
 	int bytes_read;
 	socklen_t addr_len;
+	int portNumber;									//Listen Port Number
+	struct sockaddr_in server_addr , client_addr;	//Address Variables
+	fd_set socks;
+	struct timeval t;								//Socket Timeout variable
 
-	struct sockaddr_in server_addr , client_addr;
 
+	//SerialComm mySerial;
 	int rcvd;
+
+
+
 public:
-	udp_server(int portNum )
-	{
-			if ((sock = socket(AF_INET, SOCK_DGRAM, 0)) == -1) {
-				perror("Socket");
-				exit(1);
-			}
-
-			server_addr.sin_family = AF_INET;
-			server_addr.sin_port = htons(portNum);
-			server_addr.sin_addr.s_addr = INADDR_ANY;
-			bzero(&(server_addr.sin_zero),8);
-
-
-			if (bind(sock,(struct sockaddr *)&server_addr,
-				sizeof(struct sockaddr)) == -1)
-			{
-				perror("Bind");
-				exit(1);
-			}
-
-			addr_len = sizeof(struct sockaddr);
-
-		printf("\nUDPServer Waiting for client on port %d", portNum);
-		fflush(stdout);
-		rcvd = 0;
+	udp_server(int portNum ) {
+		portNumber = portNum;
+		init();
 	}
+
 	char* listen() {
 		char recv_data[10];
+		char * pointer;
 		while (1){
-			bool connected = true;
-			while (connected){
-
-				  fd_set socks;
-				  struct timeval t;
-				  FD_ZERO (&socks);
-				  FD_SET(sock, &socks);
-				  t.tv_sec = 0;
-				  t.tv_usec = 100000;
+			while (1){
+				FD_ZERO (&socks);
+				FD_SET(sock, &socks);
+				t.tv_sec = 1;
+				t.tv_usec = 100000;
 				  if (select (sock + 1, &socks, NULL, NULL, &t)){
 					  bytes_read = recvfrom(
 												  sock,
@@ -67,6 +52,8 @@ public:
 												  (struct sockaddr *)&client_addr,
 												  &addr_len
 												);
+
+
 				  } else {
 					  // read timeout
 					  printf("!");
@@ -74,7 +61,9 @@ public:
 					  rcvd = 0;
 					  //char * tchar[] = {'\0','\0'};
 					  //  return tchar;		//return 0 position if datastream is lost
-					  break;
+					  return {"\0\0"};
+					  //return *zerochar;
+					  //break;
 
 				  }
 
@@ -87,6 +76,8 @@ public:
 					printf("\nSent Connection Message\n");
 				  }
 				  rcvd++;
+				  pointer = recv_data;
+				  return pointer;
 				  //printf("%d iteration\n",rcvd);
 				  if (rcvd > 1000){rcvd = 0;}
 				  //printf("\r\n(%s , %d) said : ",inet_ntoa(client_addr.sin_addr),
@@ -109,14 +100,39 @@ public:
 						  angle
 						);
 			  fflush(stdout);
-			  char * pointer = recv_data;
+			  pointer  = recv_data;
 			  return pointer;
 
 			}
 		}
 			return 0;
 	}
-};
+private:
+	void init(){
+		if ((sock = socket(AF_INET, SOCK_DGRAM, 0)) == -1) {
+			perror("Socket");
+			exit(1);
+		}
 
+		server_addr.sin_family = AF_INET;
+		server_addr.sin_port = htons(portNumber);
+		server_addr.sin_addr.s_addr = INADDR_ANY;
+		bzero(&(server_addr.sin_zero),8);
+		if (bind(sock,(struct sockaddr *)&server_addr,
+			sizeof(struct sockaddr)) == -1)
+		{
+			perror("Bind");
+			exit(1);
+		}
+
+
+		addr_len = sizeof(struct sockaddr);
+		printf("\nUDPServer Waiting for client on port %d\n", portNumber);
+		fflush(stdout);
+		rcvd = 0;
+
+	}
+
+};
 
 
