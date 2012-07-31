@@ -58,5 +58,9 @@ void *proxyThread (void *ptr){
 	//mySerial = (SerialComm *) gData->ser;
 
 	printf("%d \t %d\n\r",gData->drive,gData->steering);
-	gData->ser->write(buffer);
+	//gData->ser->write(buffer);
+	gData->ser->write(gData->drive);
+	gData->ser->write(gData->steering);
+	gData->ser->write((char)0x7F);
+
 }
