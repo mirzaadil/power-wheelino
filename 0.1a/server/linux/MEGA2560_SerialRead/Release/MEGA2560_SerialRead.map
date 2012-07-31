@@ -1,0 +1,1721 @@
+Archive member included because of file (symbol)
+
+/home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
+                              ./main.o (pinMode)
+/home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
+                              ./main.o (millis)
+/home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+                              ./main.o (_ZN5Print5printEPKc)
+/home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(new.cpp.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o) (__cxa_pure_virtual)
+/home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+                              ./main.o (_ZN6Stream10setTimeoutEm)
+/home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o)
+                              ./main.o (_Z3maplllll)
+/home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                              ./main.o (_ZN14HardwareSerial5writeEh)
+/home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o) (_ZNK6StringixEj)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o) (__subsf3)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3x.o)
+                              /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3.o) (__addsf3x)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(cmpsf2.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o) (__ltsf2)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(divsf3.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o) (__divsf3)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(divsf3x.o)
+                              /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(divsf3.o) (__divsf3x)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fixsfsi.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o) (__fixsfsi)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fixunssfsi.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o) (__fixunssfsi)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(floatsisf.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o) (__floatunsisf)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_cmp.o)
+                              /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(cmpsf2.o) (__fp_cmp)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_inf.o)
+                              /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3x.o) (__fp_inf)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_nan.o)
+                              /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3x.o) (__fp_nan)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_pscA.o)
+                              /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3x.o) (__fp_pscA)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_pscB.o)
+                              /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3x.o) (__fp_pscB)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_round.o)
+                              /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3.o) (__fp_round)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_split3.o)
+                              /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3x.o) (__fp_split3)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_zero.o)
+                              /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3x.o) (__fp_zero)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(mulsf3.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o) (__mulsf3)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(mulsf3x.o)
+                              /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(mulsf3.o) (__mulsf3x)
+/usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_mulsi3.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o) (__mulsi3)
+/usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_divmodhi4.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o) (__divmodhi4)
+/usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_udivmodsi4.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o) (__udivmodsi4)
+/usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_divmodsi4.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o) (__divmodsi4)
+/usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_exit.o)
+                              /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o (exit)
+/usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_copy_data.o)
+                              ./main.o (__do_copy_data)
+/usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_clear_bss.o)
+                              ./main.o (__do_clear_bss)
+/usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_ctors.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o) (__do_global_ctors)
+/usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_udivmodhi4.o)
+                              /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_divmodhi4.o) (__udivmodhi4)
+/usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_tablejump_elpm.o)
+                              /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_ctors.o) (__tablejump_elpm__)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(malloc.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(new.cpp.o) (malloc)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(random.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o) (random)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(realloc.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o) (realloc)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(atol.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o) (atol)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(isspace.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o) (isspace)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(tolower.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o) (tolower)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(toupper.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o) (toupper)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(memcpy.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o) (memcpy)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(memmove.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o) (memmove)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strchr.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o) (strchr)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strcmp.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o) (strcmp)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strcpy.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o) (strcpy)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strncmp.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o) (strncmp)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strncpy.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o) (strncpy)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strrchr.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o) (strrchr)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strstr.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o) (strstr)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(itoa.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o) (itoa)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(ltoa.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o) (ltoa)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(mulsi10.o)
+                              /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(atol.o) (__mulsi_const_10)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(ultoa.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o) (ultoa)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(utoa.o)
+                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o) (utoa)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(cty_isfalse.o)
+                              /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(isspace.o) (__ctype_isfalse)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strrev.o)
+                              /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(itoa.o) (strrev)
+
+Allocating common symbols
+Common symbol       size              file
+
+__brkval            0x2               /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(malloc.o)
+__flp               0x2               /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(malloc.o)
+
+Discarded input sections
+
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+ .stab          0x0000000000000000      0x6e4 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+ .stabstr       0x0000000000000000       0x64 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+ .text          0x0000000000000000        0x0 ./main.o
+ .bss           0x0000000000000000        0x0 ./main.o
+ .text          0x0000000000000000        0x0 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
+ .data          0x0000000000000000        0x0 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
+ .bss           0x0000000000000000        0x0 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
+ .stab          0x0000000000000000      0xb34 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
+ .stabstr       0x0000000000000000      0xfdd /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
+ .text.turnOffPWM
+                0x0000000000000000       0xe8 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
+ .text.digitalWrite
+                0x0000000000000000       0x70 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
+ .text.digitalRead
+                0x0000000000000000       0x54 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
+ .text          0x0000000000000000        0x0 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
+ .data          0x0000000000000000        0x0 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
+ .bss           0x0000000000000000        0x0 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
+ .stab          0x0000000000000000      0xb10 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
+ .stabstr       0x0000000000000000      0xeb1 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
+ .text.micros   0x0000000000000000       0x4c /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
+ .text.delay    0x0000000000000000       0x4e /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
+ .text.delayMicroseconds
+                0x0000000000000000       0x14 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
+ .text          0x0000000000000000        0x0 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+ .data          0x0000000000000000        0x2 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+ .bss           0x0000000000000000        0x0 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+ .stab          0x0000000000000000     0x156c /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+ .stabstr       0x0000000000000000     0x3cbb /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+ .text._ZN5Print5printEPK19__FlashStringHelper
+                0x0000000000000000       0x46 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+ .text._ZN5Print5printERK6String
+                0x0000000000000000       0x66 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+ .text._ZN5Print5printERK9Printable
+                0x0000000000000000       0x16 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+ .text._ZN5Print7printlnEPK19__FlashStringHelper
+                0x0000000000000000       0x26 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+ .text._ZN5Print7printlnERK6String
+                0x0000000000000000       0x26 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+ .text._ZN5Print7printlnEc
+                0x0000000000000000       0x26 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+ .text._ZN5Print7printlnERK9Printable
+                0x0000000000000000       0x26 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+ .text._ZN5Print5printEji
+                0x0000000000000000        0xe /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+ .text._ZN5Print7printlnEji
+                0x0000000000000000       0x2e /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+ .text._ZN5Print5printEhi
+                0x0000000000000000       0x10 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+ .text._ZN5Print7printlnEhi
+                0x0000000000000000       0x30 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+ .text._ZN5Print5printEii
+                0x0000000000000000       0x14 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+ .text._ZN5Print10printFloatEdh
+                0x0000000000000000      0x16c /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+ .text._ZN5Print5printEdi
+                0x0000000000000000        0x6 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+ .text._ZN5Print7printlnEdi
+                0x0000000000000000       0x26 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+ .rodata._ZTV5Print
+                0x0000000000000000        0x8 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+ .text          0x0000000000000000        0x0 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(new.cpp.o)
+ .data          0x0000000000000000        0x0 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(new.cpp.o)
+ .bss           0x0000000000000000        0x0 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(new.cpp.o)
+ .stab          0x0000000000000000      0x3cc /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(new.cpp.o)
+ .stabstr       0x0000000000000000      0x5e8 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(new.cpp.o)
+ .text._Znwj    0x0000000000000000        0x6 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(new.cpp.o)
+ .text._ZdlPv   0x0000000000000000        0x6 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(new.cpp.o)
+ .text.__cxa_guard_acquire
+                0x0000000000000000       0x14 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(new.cpp.o)
+ .text.__cxa_guard_release
+                0x0000000000000000        0x8 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(new.cpp.o)
+ .text.__cxa_guard_abort
+                0x0000000000000000        0x2 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(new.cpp.o)
+ .text.__cxa_pure_virtual
+                0x0000000000000000        0x2 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(new.cpp.o)
+ .text          0x0000000000000000        0x0 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+ .data          0x0000000000000000        0x0 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+ .bss           0x0000000000000000        0x0 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+ .stab          0x0000000000000000     0x1074 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+ .stabstr       0x0000000000000000     0x3017 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+ .text._ZN6Stream9timedPeekEv
+                0x0000000000000000       0x58 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+ .text._ZN6Stream13peekNextDigitEv
+                0x0000000000000000       0x38 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+ .text._ZN6Stream9findUntilEPcjS0_j
+                0x0000000000000000       0xb6 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+ .text._ZN6Stream9findUntilEPcS0_
+                0x0000000000000000       0x3a /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+ .text._ZN6Stream4findEPc
+                0x0000000000000000        0xa /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+ .text._ZN6Stream4findEPcj
+                0x0000000000000000       0x16 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+ .text._ZN6Stream8parseIntEc
+                0x0000000000000000       0xe2 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+ .text._ZN6Stream8parseIntEv
+                0x0000000000000000        0x8 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+ .text._ZN6Stream10parseFloatEc
+                0x0000000000000000      0x14a /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+ .text._ZN6Stream10parseFloatEv
+                0x0000000000000000        0x8 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+ .text._ZN6Stream9readBytesEPcj
+                0x0000000000000000       0x46 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+ .text          0x0000000000000000        0x0 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o)
+ .data          0x0000000000000000        0x0 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o)
+ .bss           0x0000000000000000        0x0 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o)
+ .stab          0x0000000000000000      0x45c /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o)
+ .stabstr       0x0000000000000000      0x629 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o)
+ .text._Z10randomSeedj
+                0x0000000000000000       0x10 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o)
+ .text._Z6randoml
+                0x0000000000000000       0x3c /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o)
+ .text._Z6randomll
+                0x0000000000000000       0x3c /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o)
+ .text._Z8makeWordj
+                0x0000000000000000        0x2 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o)
+ .text._Z8makeWordhh
+                0x0000000000000000        0xe /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o)
+ .text          0x0000000000000000        0x0 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+ .data          0x0000000000000000        0x0 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+ .bss           0x0000000000000000        0x0 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+ .stab          0x0000000000000000     0x1740 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+ .stabstr       0x0000000000000000     0x3bca /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+ .text._Z11serialEventv
+                0x0000000000000000        0x2 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+ .text._Z12serialEvent1v
+                0x0000000000000000        0x2 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+ .text._Z12serialEvent2v
+                0x0000000000000000        0x2 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+ .text._Z12serialEvent3v
+                0x0000000000000000        0x2 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+ .text._Z14serialEventRunv
+                0x0000000000000000       0x42 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+ .text._ZN14HardwareSerialC2EP11ring_bufferS1_PVhS3_S3_S3_S3_hhhhh
+                0x0000000000000000       0x7e /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+ .text._ZN14HardwareSerial3endEv
+                0x0000000000000000       0xae /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+ .rodata._ZTV6Stream
+                0x0000000000000000       0x10 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+ .text          0x0000000000000000        0x0 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .data          0x0000000000000000        0x1 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .bss           0x0000000000000000        0x0 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .stab          0x0000000000000000     0x2d00 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .stabstr       0x0000000000000000     0x3444 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZN6StringD2Ev
+                0x0000000000000000        0xc /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZN6String10invalidateEv
+                0x0000000000000000       0x24 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZN6String12changeBufferEj
+                0x0000000000000000       0x34 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZN6String7reserveEj
+                0x0000000000000000       0x3e /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZN6String4copyEPKcj
+                0x0000000000000000       0x42 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZN6StringC2EPKc
+                0x0000000000000000       0x36 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZN6StringaSERKS_
+                0x0000000000000000       0x36 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZN6StringC2ERKS_
+                0x0000000000000000       0x16 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZN6StringaSEPKc
+                0x0000000000000000       0x30 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZN6StringC2Emh
+                0x0000000000000000       0x62 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZN6StringC2Elh
+                0x0000000000000000       0x62 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZN6StringC2Ejh
+                0x0000000000000000       0x60 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZN6StringC2Eih
+                0x0000000000000000       0x60 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZN6StringC2Ehh
+                0x0000000000000000       0x62 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZN6StringC2Ec
+                0x0000000000000000       0x34 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZN6String6concatEPKcj
+                0x0000000000000000       0x58 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZN6String6concatERKS_
+                0x0000000000000000       0x10 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZN6String6concatEPKc
+                0x0000000000000000       0x22 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZN6String6concatEc
+                0x0000000000000000       0x28 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZN6String6concatEh
+                0x0000000000000000       0x5a /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZN6String6concatEi
+                0x0000000000000000       0x64 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZN6String6concatEj
+                0x0000000000000000       0x5c /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZN6String6concatEl
+                0x0000000000000000       0x66 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZN6String6concatEm
+                0x0000000000000000       0x66 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZplRK15StringSumHelperRK6String
+                0x0000000000000000       0x26 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZplRK15StringSumHelperPKc
+                0x0000000000000000       0x34 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZplRK15StringSumHelperc
+                0x0000000000000000       0x1c /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZplRK15StringSumHelperh
+                0x0000000000000000       0x1c /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZplRK15StringSumHelperi
+                0x0000000000000000       0x1c /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZplRK15StringSumHelperj
+                0x0000000000000000       0x1c /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZplRK15StringSumHelperl
+                0x0000000000000000       0x1c /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZplRK15StringSumHelperm
+                0x0000000000000000       0x1c /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZNK6String9compareToERKS_
+                0x0000000000000000       0x6c /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZNK6String6equalsERKS_
+                0x0000000000000000       0x22 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZNK6String6equalsEPKc
+                0x0000000000000000       0x46 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZNK6StringltERKS_
+                0x0000000000000000        0xe /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZNK6StringgtERKS_
+                0x0000000000000000       0x12 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZNK6StringleERKS_
+                0x0000000000000000       0x12 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZNK6StringgeERKS_
+                0x0000000000000000       0x10 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZNK6String16equalsIgnoreCaseERKS_
+                0x0000000000000000       0x74 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZNK6String10startsWithERKS_j
+                0x0000000000000000       0x4c /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZNK6String10startsWithERKS_
+                0x0000000000000000       0x20 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZNK6String8endsWithERKS_
+                0x0000000000000000       0x4a /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZN6String9setCharAtEjc
+                0x0000000000000000       0x1a /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZN6StringixEj
+                0x0000000000000000       0x26 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZNK6StringixEj
+                0x0000000000000000       0x26 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZNK6String6charAtEj
+                0x0000000000000000        0x6 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZNK6String8getBytesEPhjj
+                0x0000000000000000       0x58 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZNK6String7indexOfEcj
+                0x0000000000000000       0x3c /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZNK6String7indexOfEc
+                0x0000000000000000        0xa /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZNK6String7indexOfERKS_j
+                0x0000000000000000       0x3c /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZNK6String7indexOfERKS_
+                0x0000000000000000        0xa /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZNK6String11lastIndexOfEcj
+                0x0000000000000000       0x6e /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZNK6String11lastIndexOfEc
+                0x0000000000000000       0x10 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZNK6String11lastIndexOfERKS_j
+                0x0000000000000000       0x9a /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZNK6String11lastIndexOfERKS_
+                0x0000000000000000       0x16 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZNK6String9substringEjj
+                0x0000000000000000       0xa2 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZNK6String9substringEj
+                0x0000000000000000       0x18 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZN6String7replaceEcc
+                0x0000000000000000       0x1e /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZN6String7replaceERKS_S1_
+                0x0000000000000000      0x214 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZN6String11toLowerCaseEv
+                0x0000000000000000       0x28 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZN6String11toUpperCaseEv
+                0x0000000000000000       0x28 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZN6String4trimEv
+                0x0000000000000000       0xc2 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text._ZNK6String5toIntEv
+                0x0000000000000000       0x20 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .bss._ZZN6StringixEjE19dummy_writable_char
+                0x0000000000000000        0x1 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3.o)
+ .stab          0x0000000000000000       0x84 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3.o)
+ .stabstr       0x0000000000000000       0x3e /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xa /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3x.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3x.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3x.o)
+ .stab          0x0000000000000000      0x4c8 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3x.o)
+ .stabstr       0x0000000000000000       0x3f /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3x.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0xc0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3x.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(cmpsf2.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(cmpsf2.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(cmpsf2.o)
+ .stab          0x0000000000000000       0x9c /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(cmpsf2.o)
+ .stabstr       0x0000000000000000       0x3e /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(cmpsf2.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0x8 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(cmpsf2.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(divsf3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(divsf3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(divsf3.o)
+ .stab          0x0000000000000000       0x54 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(divsf3.o)
+ .stabstr       0x0000000000000000       0x3e /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(divsf3.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0x4 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(divsf3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(divsf3x.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(divsf3x.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(divsf3x.o)
+ .stab          0x0000000000000000      0x51c /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(divsf3x.o)
+ .stabstr       0x0000000000000000       0x3f /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(divsf3x.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0xcc /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(divsf3x.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fixsfsi.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fixsfsi.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fixsfsi.o)
+ .stab          0x0000000000000000       0x78 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fixsfsi.o)
+ .stabstr       0x0000000000000000       0x3f /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fixsfsi.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xa /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fixsfsi.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fixunssfsi.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fixunssfsi.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fixunssfsi.o)
+ .stab          0x0000000000000000      0x24c /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fixunssfsi.o)
+ .stabstr       0x0000000000000000       0x42 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fixunssfsi.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0x58 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fixunssfsi.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(floatsisf.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(floatsisf.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(floatsisf.o)
+ .stab          0x0000000000000000      0x324 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(floatsisf.o)
+ .stabstr       0x0000000000000000       0x41 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(floatsisf.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0x7a /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(floatsisf.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_cmp.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_cmp.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_cmp.o)
+ .stab          0x0000000000000000      0x1ec /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_cmp.o)
+ .stabstr       0x0000000000000000       0x3e /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_cmp.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0x48 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_cmp.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_inf.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_inf.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_inf.o)
+ .stab          0x0000000000000000       0x84 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_inf.o)
+ .stabstr       0x0000000000000000       0x3e /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_inf.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xc /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_inf.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_nan.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_nan.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_nan.o)
+ .stab          0x0000000000000000       0x60 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_nan.o)
+ .stabstr       0x0000000000000000       0x3e /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_nan.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0x6 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_nan.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_pscA.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_pscA.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_pscA.o)
+ .stab          0x0000000000000000       0x90 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_pscA.o)
+ .stabstr       0x0000000000000000       0x3f /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_pscA.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xe /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_pscA.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_pscB.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_pscB.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_pscB.o)
+ .stab          0x0000000000000000       0x90 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_pscB.o)
+ .stabstr       0x0000000000000000       0x3f /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_pscB.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xe /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_pscB.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_round.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_round.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_round.o)
+ .stab          0x0000000000000000      0x108 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_round.o)
+ .stabstr       0x0000000000000000       0x40 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_round.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0x22 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_round.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_split3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_split3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_split3.o)
+ .stab          0x0000000000000000      0x1e0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_split3.o)
+ .stabstr       0x0000000000000000       0x41 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_split3.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0x44 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_split3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_zero.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_zero.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_zero.o)
+ .stab          0x0000000000000000       0x9c /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_zero.o)
+ .stabstr       0x0000000000000000       0x3f /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_zero.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xe /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_zero.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(mulsf3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(mulsf3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(mulsf3.o)
+ .stab          0x0000000000000000       0x54 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(mulsf3.o)
+ .stabstr       0x0000000000000000       0x3e /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(mulsf3.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0x4 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(mulsf3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(mulsf3x.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(mulsf3x.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(mulsf3x.o)
+ .stab          0x0000000000000000      0x4e0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(mulsf3x.o)
+ .stabstr       0x0000000000000000       0x3f /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(mulsf3x.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0xc2 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(mulsf3x.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_mulsi3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_mulsi3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_mulsi3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_divmodhi4.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_divmodhi4.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_divmodhi4.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_udivmodsi4.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_udivmodsi4.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_udivmodsi4.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_divmodsi4.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_divmodsi4.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_divmodsi4.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_exit.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_exit.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_exit.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_copy_data.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_copy_data.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_copy_data.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_clear_bss.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_clear_bss.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_clear_bss.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_ctors.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_ctors.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_ctors.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_ctors.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_udivmodhi4.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_udivmodhi4.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_udivmodhi4.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_tablejump_elpm.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_tablejump_elpm.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_tablejump_elpm.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(malloc.o)
+ .data          0x0000000000000000        0x6 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(malloc.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(malloc.o)
+ .stab          0x0000000000000000      0x75c /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(malloc.o)
+ .stabstr       0x0000000000000000      0x834 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(malloc.o)
+ .text.avr-libc
+                0x0000000000000000      0x266 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(malloc.o)
+ COMMON         0x0000000000000000        0x4 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(malloc.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(random.o)
+ .data          0x0000000000000000        0x4 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(random.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(random.o)
+ .stab          0x0000000000000000      0x330 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(random.o)
+ .stabstr       0x0000000000000000      0x44b /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(random.o)
+ .text.avr-libc
+                0x0000000000000000       0xbe /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(random.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(realloc.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(realloc.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(realloc.o)
+ .stab          0x0000000000000000      0x5c4 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(realloc.o)
+ .stabstr       0x0000000000000000      0x7b7 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(realloc.o)
+ .text.avr-libc
+                0x0000000000000000      0x1b2 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(realloc.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(atol.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(atol.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(atol.o)
+ .stab          0x0000000000000000      0x1ec /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(atol.o)
+ .stabstr       0x0000000000000000       0x3d /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(atol.o)
+ .text.avr-libc
+                0x0000000000000000       0x4e /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(atol.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(isspace.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(isspace.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(isspace.o)
+ .stab          0x0000000000000000       0xa8 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(isspace.o)
+ .stabstr       0x0000000000000000       0x53 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(isspace.o)
+ .text.avr-libc
+                0x0000000000000000       0x10 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(isspace.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(tolower.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(tolower.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(tolower.o)
+ .stab          0x0000000000000000       0xa8 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(tolower.o)
+ .stabstr       0x0000000000000000       0x53 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(tolower.o)
+ .text.avr-libc
+                0x0000000000000000       0x10 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(tolower.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(toupper.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(toupper.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(toupper.o)
+ .stab          0x0000000000000000       0xa8 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(toupper.o)
+ .stabstr       0x0000000000000000       0x53 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(toupper.o)
+ .text.avr-libc
+                0x0000000000000000       0x10 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(toupper.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(memcpy.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(memcpy.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(memcpy.o)
+ .stab          0x0000000000000000       0x90 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(memcpy.o)
+ .stabstr       0x0000000000000000       0x3f /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(memcpy.o)
+ .text.avr-libc
+                0x0000000000000000       0x12 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(memcpy.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(memmove.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(memmove.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(memmove.o)
+ .stab          0x0000000000000000       0xf0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(memmove.o)
+ .stabstr       0x0000000000000000       0x40 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(memmove.o)
+ .text.avr-libc
+                0x0000000000000000       0x24 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(memmove.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strchr.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strchr.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strchr.o)
+ .stab          0x0000000000000000       0xa8 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strchr.o)
+ .stabstr       0x0000000000000000       0x3f /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strchr.o)
+ .text.avr-libc
+                0x0000000000000000       0x16 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strchr.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strcmp.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strcmp.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strcmp.o)
+ .stab          0x0000000000000000       0x90 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strcmp.o)
+ .stabstr       0x0000000000000000       0x3f /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strcmp.o)
+ .text.avr-libc
+                0x0000000000000000       0x12 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strcmp.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strcpy.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strcpy.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strcpy.o)
+ .stab          0x0000000000000000       0x78 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strcpy.o)
+ .stabstr       0x0000000000000000       0x3f /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strcpy.o)
+ .text.avr-libc
+                0x0000000000000000        0xe /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strcpy.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strncmp.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strncmp.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strncmp.o)
+ .stab          0x0000000000000000       0xcc /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strncmp.o)
+ .stabstr       0x0000000000000000       0x40 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strncmp.o)
+ .text.avr-libc
+                0x0000000000000000       0x1c /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strncmp.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strncpy.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strncpy.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strncpy.o)
+ .stab          0x0000000000000000       0xd8 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strncpy.o)
+ .stabstr       0x0000000000000000       0x40 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strncpy.o)
+ .text.avr-libc
+                0x0000000000000000       0x1e /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strncpy.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strrchr.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strrchr.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strrchr.o)
+ .stab          0x0000000000000000       0xa8 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strrchr.o)
+ .stabstr       0x0000000000000000       0x40 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strrchr.o)
+ .text.avr-libc
+                0x0000000000000000       0x16 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strrchr.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strstr.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strstr.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strstr.o)
+ .stab          0x0000000000000000      0x15c /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strstr.o)
+ .stabstr       0x0000000000000000       0x3f /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strstr.o)
+ .text.avr-libc
+                0x0000000000000000       0x34 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strstr.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(itoa.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(itoa.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(itoa.o)
+ .stab          0x0000000000000000      0x1bc /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(itoa.o)
+ .stabstr       0x0000000000000000       0x4d /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(itoa.o)
+ .text.avr-libc
+                0x0000000000000000       0x42 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(itoa.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(ltoa.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(ltoa.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(ltoa.o)
+ .stab          0x0000000000000000      0x2a0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(ltoa.o)
+ .stabstr       0x0000000000000000       0x4d /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(ltoa.o)
+ .text.avr-libc
+                0x0000000000000000       0x68 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(ltoa.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(mulsi10.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(mulsi10.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(mulsi10.o)
+ .stab          0x0000000000000000      0x120 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(mulsi10.o)
+ .stabstr       0x0000000000000000       0x3e /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(mulsi10.o)
+ .text.avr-libc
+                0x0000000000000000       0x2a /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(mulsi10.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(ultoa.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(ultoa.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(ultoa.o)
+ .stab          0x0000000000000000      0x1ec /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(ultoa.o)
+ .stabstr       0x0000000000000000       0x4f /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(ultoa.o)
+ .text.avr-libc
+                0x0000000000000000       0x4a /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(ultoa.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(utoa.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(utoa.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(utoa.o)
+ .stab          0x0000000000000000      0x138 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(utoa.o)
+ .stabstr       0x0000000000000000       0x4d /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(utoa.o)
+ .text.avr-libc
+                0x0000000000000000       0x2c /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(utoa.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(cty_isfalse.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(cty_isfalse.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(cty_isfalse.o)
+ .stab          0x0000000000000000       0x6c /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(cty_isfalse.o)
+ .stabstr       0x0000000000000000       0x5b /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(cty_isfalse.o)
+ .text.avr-libc
+                0x0000000000000000        0x6 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(cty_isfalse.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strrev.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strrev.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strrev.o)
+ .stab          0x0000000000000000       0xe4 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strrev.o)
+ .stabstr       0x0000000000000000       0x3f /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strrev.o)
+ .text.avr-libc
+                0x0000000000000000       0x20 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strrev.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000100000 xr
+data             0x0000000000800200 0x000000000000fe00 rw !x
+eeprom           0x0000000000810000 0x0000000000010000 rw !x
+fuse             0x0000000000820000 0x0000000000000400 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800200
+LOAD /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+LOAD ./main.o
+LOAD /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a
+LOAD /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a
+LOAD /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a
+LOAD /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a
+LOAD /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a
+LOAD /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000     0x1308
+ *(.vectors)
+ .vectors       0x0000000000000000       0xe4 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+                0x0000000000000000                __vectors
+                0x0000000000000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+ .progmem.data  0x00000000000000e4      0x120 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
+                0x00000000000000e4                port_to_mode_PGM
+                0x00000000000000fe                port_to_output_PGM
+                0x0000000000000118                port_to_input_PGM
+                0x0000000000000132                digital_pin_to_port_PGM
+                0x0000000000000178                digital_pin_to_bit_mask_PGM
+                0x00000000000001be                digital_pin_to_timer_PGM
+                0x0000000000000204                . = ALIGN (0x2)
+                0x0000000000000204                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000000000000204        0x0 linker stubs
+ *(.trampolines*)
+                0x0000000000000204                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000000000000204                __ctors_start = .
+ *(.ctors)
+ .ctors         0x0000000000000204        0x2 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000000206                __ctors_end = .
+                0x0000000000000206                __dtors_start = .
+ *(.dtors)
+                0x0000000000000206                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000000000000206        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+                0x0000000000000206                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000000000000206       0x10 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000000000000216       0x1a /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_copy_data.o)
+                0x0000000000000216                __do_copy_data
+ .init4         0x0000000000000230       0x10 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_clear_bss.o)
+                0x0000000000000230                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ .init6         0x0000000000000240       0x20 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_ctors.o)
+                0x0000000000000240                __do_global_ctors
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000000000000260        0x8 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+ *(.init9)
+ *(.text)
+ .text          0x0000000000000268        0x4 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+                0x0000000000000268                __vector_38
+                0x0000000000000268                __vector_22
+                0x0000000000000268                __vector_28
+                0x0000000000000268                __vector_1
+                0x0000000000000268                __vector_32
+                0x0000000000000268                __vector_34
+                0x0000000000000268                __vector_24
+                0x0000000000000268                __vector_12
+                0x0000000000000268                __vector_46
+                0x0000000000000268                __bad_interrupt
+                0x0000000000000268                __vector_6
+                0x0000000000000268                __vector_31
+                0x0000000000000268                __vector_35
+                0x0000000000000268                __vector_39
+                0x0000000000000268                __vector_3
+                0x0000000000000268                __vector_30
+                0x0000000000000268                __vector_45
+                0x0000000000000268                __vector_11
+                0x0000000000000268                __vector_13
+                0x0000000000000268                __vector_17
+                0x0000000000000268                __vector_19
+                0x0000000000000268                __vector_56
+                0x0000000000000268                __vector_7
+                0x0000000000000268                __vector_49
+                0x0000000000000268                __vector_41
+                0x0000000000000268                __vector_43
+                0x0000000000000268                __vector_27
+                0x0000000000000268                __vector_5
+                0x0000000000000268                __vector_33
+                0x0000000000000268                __vector_47
+                0x0000000000000268                __vector_4
+                0x0000000000000268                __vector_44
+                0x0000000000000268                __vector_9
+                0x0000000000000268                __vector_2
+                0x0000000000000268                __vector_21
+                0x0000000000000268                __vector_15
+                0x0000000000000268                __vector_29
+                0x0000000000000268                __vector_40
+                0x0000000000000268                __vector_8
+                0x0000000000000268                __vector_48
+                0x0000000000000268                __vector_14
+                0x0000000000000268                __vector_53
+                0x0000000000000268                __vector_10
+                0x0000000000000268                __vector_50
+                0x0000000000000268                __vector_16
+                0x0000000000000268                __vector_18
+                0x0000000000000268                __vector_20
+                0x0000000000000268                __vector_42
+                0x000000000000026c                . = ALIGN (0x2)
+ *(.text.*)
+ .text.setup    0x000000000000026c       0x5a ./main.o
+                0x000000000000026c                setup
+ .text.loop     0x00000000000002c6      0x196 ./main.o
+                0x00000000000002c6                loop
+ .text.main     0x000000000000045c        0xe ./main.o
+                0x000000000000045c                main
+ .text.pinMode  0x000000000000046a       0x48 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
+                0x000000000000046a                pinMode
+ .text.__vector_23
+                0x00000000000004b2       0x90 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
+                0x00000000000004b2                __vector_23
+ .text.millis   0x0000000000000542       0x1c /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
+                0x0000000000000542                millis
+ .text.init     0x000000000000055e       0xc4 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
+                0x000000000000055e                init
+ .text._ZN5Print5writeEPKhj
+                0x0000000000000622       0x54 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+                0x0000000000000622                _ZN5Print5writeEPKhj
+ .text._ZN5Print5writeEPKc
+                0x0000000000000676       0x22 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+                0x0000000000000676                _ZN5Print5writeEPKc
+ .text._ZN5Print5printEPKc
+                0x0000000000000698        0x6 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+                0x0000000000000698                _ZN5Print5printEPKc
+ .text._ZN5Print5printEc
+                0x000000000000069e       0x10 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+                0x000000000000069e                _ZN5Print5printEc
+ .text._ZN5Print7printlnEv
+                0x00000000000006ae       0x2a /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+                0x00000000000006ae                _ZN5Print7printlnEv
+ .text._ZN5Print7printlnEPKc
+                0x00000000000006d8       0x26 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+                0x00000000000006d8                _ZN5Print7printlnEPKc
+ .text._ZN5Print11printNumberEmh
+                0x00000000000006fe       0xb4 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+                0x00000000000006fe                _ZN5Print11printNumberEmh
+ .text._ZN5Print5printEmi
+                0x00000000000007b2       0x1e /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+                0x00000000000007b2                _ZN5Print5printEmi
+ .text._ZN5Print7printlnEmi
+                0x00000000000007d0       0x26 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+                0x00000000000007d0                _ZN5Print7printlnEmi
+ .text._ZN5Print5printEli
+                0x00000000000007f6       0x76 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+                0x00000000000007f6                _ZN5Print5printEli
+ .text._ZN5Print7printlnEli
+                0x000000000000086c       0x26 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+                0x000000000000086c                _ZN5Print7printlnEli
+ .text._ZN5Print7printlnEii
+                0x0000000000000892       0x36 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+                0x0000000000000892                _ZN5Print7printlnEii
+ .text._ZN6Stream9timedReadEv
+                0x00000000000008c8       0x58 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+                0x00000000000008c8                _ZN6Stream9timedReadEv
+ .text._ZN6Stream10setTimeoutEm
+                0x0000000000000920        0xc /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+                0x0000000000000920                _ZN6Stream10setTimeoutEm
+ .text._ZN6Stream14readBytesUntilEcPcj
+                0x000000000000092c       0x68 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+                0x000000000000092c                _ZN6Stream14readBytesUntilEcPcj
+ .text._Z3maplllll
+                0x0000000000000994       0x92 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o)
+                0x0000000000000994                _Z3maplllll
+ .text._ZN14HardwareSerial9availableEv
+                0x0000000000000a26       0x26 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000000a26                _ZN14HardwareSerial9availableEv
+ .text._ZN14HardwareSerial4peekEv
+                0x0000000000000a4c       0x38 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000000a4c                _ZN14HardwareSerial4peekEv
+ .text._ZN14HardwareSerial4readEv
+                0x0000000000000a84       0x44 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000000a84                _ZN14HardwareSerial4readEv
+ .text._ZN14HardwareSerial5flushEv
+                0x0000000000000ac8       0x28 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000000ac8                _ZN14HardwareSerial5flushEv
+ .text._ZN14HardwareSerial5writeEh
+                0x0000000000000af0       0x72 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000000af0                _ZN14HardwareSerial5writeEh
+ .text._Z10store_charhP11ring_buffer
+                0x0000000000000b62       0x34 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000000b62                _Z10store_charhP11ring_buffer
+ .text.__vector_25
+                0x0000000000000b96       0x58 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000000b96                __vector_25
+ .text.__vector_36
+                0x0000000000000bee       0x58 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000000bee                __vector_36
+ .text.__vector_51
+                0x0000000000000c46       0x58 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000000c46                __vector_51
+ .text.__vector_54
+                0x0000000000000c9e       0x58 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000000c9e                __vector_54
+ .text.__vector_26
+                0x0000000000000cf6       0x96 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000000cf6                __vector_26
+ .text.__vector_37
+                0x0000000000000d8c       0x96 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000000d8c                __vector_37
+ .text.__vector_52
+                0x0000000000000e22       0x96 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000000e22                __vector_52
+ .text.__vector_55
+                0x0000000000000eb8       0x96 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000000eb8                __vector_55
+ .text._ZN14HardwareSerial5beginEm
+                0x0000000000000f4e       0xfc /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000000f4e                _ZN14HardwareSerial5beginEm
+ .text._GLOBAL__I_rx_buffer
+                0x000000000000104a      0x1ac /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+ .text.libgcc   0x00000000000011f6       0x3e /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_mulsi3.o)
+                0x00000000000011f6                __mulsi3
+ .text.libgcc   0x0000000000001234       0x26 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_divmodhi4.o)
+                0x0000000000001234                __divmodhi4
+                0x0000000000001234                _div
+ .text.libgcc   0x000000000000125a       0x44 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_udivmodsi4.o)
+                0x000000000000125a                __udivmodsi4
+ .text.libgcc   0x000000000000129e       0x36 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_divmodsi4.o)
+                0x000000000000129e                __divmodsi4
+ .text.libgcc   0x00000000000012d4       0x28 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_udivmodhi4.o)
+                0x00000000000012d4                __udivmodhi4
+ .text.libgcc   0x00000000000012fc        0x8 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_tablejump_elpm.o)
+                0x00000000000012fc                __tablejump_elpm__
+                0x0000000000001304                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000000000001304        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_exit.o)
+                0x0000000000001304                exit
+                0x0000000000001304                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000000000001304        0x4 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000000000001308                _etext = .
+
+.data           0x0000000000800200       0x6a load address 0x0000000000001308
+                0x0000000000800200                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x0000000000800200       0x58 ./main.o
+ *(.data*)
+ .data.ledPin   0x0000000000800258        0x2 ./main.o
+                0x0000000000800258                ledPin
+ *(.rodata)
+ *(.rodata*)
+ .rodata._ZTV14HardwareSerial
+                0x000000000080025a       0x10 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x000000000080025a                _ZTV14HardwareSerial
+ *(.gnu.linkonce.d*)
+                0x000000000080026a                . = ALIGN (0x2)
+                0x000000000080026a                _edata = .
+                0x000000000080026a                PROVIDE (__data_end, .)
+
+.bss            0x000000000080026a      0x2b7
+                0x000000000080026a                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.inData    0x000000000080026a       0x10 ./main.o
+                0x000000000080026a                inData
+ .bss.bRead     0x000000000080027a        0x2 ./main.o
+                0x000000000080027a                bRead
+ .bss.timer0_overflow_count
+                0x000000000080027c        0x4 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
+                0x000000000080027c                timer0_overflow_count
+ .bss.timer0_millis
+                0x0000000000800280        0x4 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
+                0x0000000000800280                timer0_millis
+ .bss.timer0_fract
+                0x0000000000800284        0x1 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
+ .bss.rx_buffer
+                0x0000000000800285       0x44 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000800285                rx_buffer
+ .bss.tx_buffer
+                0x00000000008002c9       0x44 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x00000000008002c9                tx_buffer
+ .bss.rx_buffer1
+                0x000000000080030d       0x44 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x000000000080030d                rx_buffer1
+ .bss.tx_buffer1
+                0x0000000000800351       0x44 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000800351                tx_buffer1
+ .bss.rx_buffer2
+                0x0000000000800395       0x44 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000800395                rx_buffer2
+ .bss.tx_buffer2
+                0x00000000008003d9       0x44 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x00000000008003d9                tx_buffer2
+ .bss.rx_buffer3
+                0x000000000080041d       0x44 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x000000000080041d                rx_buffer3
+ .bss.tx_buffer3
+                0x0000000000800461       0x44 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000800461                tx_buffer3
+ .bss.Serial    0x00000000008004a5       0x1f /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x00000000008004a5                Serial
+ .bss.Serial1   0x00000000008004c4       0x1f /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x00000000008004c4                Serial1
+ .bss.Serial2   0x00000000008004e3       0x1f /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x00000000008004e3                Serial2
+ .bss.Serial3   0x0000000000800502       0x1f /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000800502                Serial3
+ *(COMMON)
+                0x0000000000800521                PROVIDE (__bss_end, .)
+                0x0000000000001308                __data_load_start = LOADADDR (.data)
+                0x0000000000001372                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0000000000800521        0x0
+                0x0000000000800521                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x0000000000800521                PROVIDE (__noinit_end, .)
+                0x0000000000800521                _end = .
+                0x0000000000800521                PROVIDE (__heap_start, .)
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(MEGA2560_SerialRead.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+HardwareSerial::HardwareSerial(ring_buffer*, ring_buffer*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+HardwareSerial::HardwareSerial(ring_buffer*, ring_buffer*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+HardwareSerial::available()                       /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+HardwareSerial::begin(unsigned long)              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                                                  ./main.o
+HardwareSerial::end()                             /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+HardwareSerial::flush()                           /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+HardwareSerial::peek()                            /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+HardwareSerial::read()                            /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+HardwareSerial::write(unsigned char)              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                                                  ./main.o
+Print::print(Printable const&)                    /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+Print::print(String const&)                       /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+Print::print(__FlashStringHelper const*)          /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+Print::print(char const*)                         /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+                                                  ./main.o
+Print::print(char)                                /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+Print::print(double, int)                         /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+Print::print(int, int)                            /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+Print::print(long, int)                           /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+Print::print(unsigned char, int)                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+Print::print(unsigned int, int)                   /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+Print::print(unsigned long, int)                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+Print::printFloat(double, unsigned char)          /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+Print::printNumber(unsigned long, unsigned char)  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+Print::println()                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+Print::println(Printable const&)                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+Print::println(String const&)                     /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+Print::println(__FlashStringHelper const*)        /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+Print::println(char const*)                       /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+                                                  ./main.o
+Print::println(char)                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+Print::println(double, int)                       /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+Print::println(int, int)                          /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+                                                  ./main.o
+Print::println(long, int)                         /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+                                                  ./main.o
+Print::println(unsigned char, int)                /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+Print::println(unsigned int, int)                 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+Print::println(unsigned long, int)                /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+                                                  ./main.o
+Print::write(char const*)                         /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+Print::write(unsigned char const*, unsigned int)  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+Serial                                            /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                                                  ./main.o
+Serial1                                           /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+Serial2                                           /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+Serial3                                           /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+Stream::find(char*)                               /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+Stream::find(char*, unsigned int)                 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+Stream::findUntil(char*, char*)                   /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+Stream::findUntil(char*, unsigned int, char*, unsigned int) /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+Stream::parseFloat()                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+Stream::parseFloat(char)                          /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+Stream::parseInt()                                /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+Stream::parseInt(char)                            /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+Stream::peekNextDigit()                           /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+Stream::readBytes(char*, unsigned int)            /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+Stream::readBytesUntil(char, char*, unsigned int) /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+                                                  ./main.o
+Stream::setTimeout(unsigned long)                 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+                                                  ./main.o
+Stream::timedPeek()                               /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+Stream::timedRead()                               /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+String::String(String const&)                     /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::String(String const&)                     /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::String(char const*)                       /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::String(char const*)                       /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::String(char)                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::String(char)                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::String(int, unsigned char)                /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::String(int, unsigned char)                /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::String(long, unsigned char)               /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::String(long, unsigned char)               /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::String(unsigned char, unsigned char)      /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::String(unsigned char, unsigned char)      /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::String(unsigned int, unsigned char)       /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::String(unsigned int, unsigned char)       /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::String(unsigned long, unsigned char)      /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::String(unsigned long, unsigned char)      /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::changeBuffer(unsigned int)                /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::charAt(unsigned int) const                /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::compareTo(String const&) const            /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::concat(String const&)                     /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::concat(char const*)                       /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::concat(char const*, unsigned int)         /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::concat(char)                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::concat(int)                               /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::concat(long)                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::concat(unsigned char)                     /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::concat(unsigned int)                      /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::concat(unsigned long)                     /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::copy(char const*, unsigned int)           /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::endsWith(String const&) const             /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::equals(String const&) const               /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::equals(char const*) const                 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::equalsIgnoreCase(String const&) const     /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::getBytes(unsigned char*, unsigned int, unsigned int) const /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::indexOf(String const&) const              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::indexOf(String const&, unsigned int) const /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::indexOf(char) const                       /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::indexOf(char, unsigned int) const         /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::invalidate()                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::lastIndexOf(String const&) const          /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::lastIndexOf(String const&, unsigned int) const /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::lastIndexOf(char) const                   /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::lastIndexOf(char, unsigned int) const     /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::operator<(String const&) const            /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::operator<=(String const&) const           /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::operator=(String const&)                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::operator=(char const*)                    /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::operator>(String const&) const            /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::operator>=(String const&) const           /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::operator[](unsigned int)                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::operator[](unsigned int) const            /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+String::replace(String const&, String const&)     /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::replace(char, char)                       /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::reserve(unsigned int)                     /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::setCharAt(unsigned int, char)             /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::startsWith(String const&) const           /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::startsWith(String const&, unsigned int) const /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::substring(unsigned int) const             /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::substring(unsigned int, unsigned int) const /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::toInt() const                             /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::toLowerCase()                             /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::toUpperCase()                             /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::trim()                                    /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::~String()                                 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+String::~String()                                 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+__addsf3                                          /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+__addsf3x                                         /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3x.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3.o)
+__bad_interrupt                                   /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__brkval                                          /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(realloc.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(malloc.o)
+__bss_end                                         /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_clear_bss.o)
+__bss_start                                       /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_clear_bss.o)
+__cmpsf2                                          /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(cmpsf2.o)
+__ctors_end                                       /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_ctors.o)
+__ctors_start                                     /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_ctors.o)
+__ctype_isfalse                                   /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(cty_isfalse.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(isspace.o)
+__ctype_istrue                                    /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(cty_isfalse.o)
+__cxa_guard_abort                                 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(new.cpp.o)
+__cxa_guard_acquire                               /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(new.cpp.o)
+__cxa_guard_release                               /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(new.cpp.o)
+__cxa_pure_virtual                                /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(new.cpp.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+__data_end                                        /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_copy_data.o)
+__data_load_start                                 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_copy_data.o)
+__data_start                                      /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_copy_data.o)
+__divmodhi4                                       /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_divmodhi4.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+__divmodsi4                                       /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_divmodsi4.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(random.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o)
+__divsf3                                          /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(divsf3.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+__divsf3_pse                                      /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(divsf3x.o)
+__divsf3x                                         /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(divsf3x.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(divsf3.o)
+__do_clear_bss                                    /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_clear_bss.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(malloc.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
+                                                  ./main.o
+__do_copy_data                                    /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_copy_data.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(random.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(malloc.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+                                                  ./main.o
+__do_global_ctors                                 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_ctors.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+__eqsf2                                           /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(cmpsf2.o)
+__fixsfsi                                         /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fixsfsi.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+__fixunssfsi                                      /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fixunssfsi.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fixsfsi.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+__floatsisf                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(floatsisf.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+__floatunsisf                                     /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(floatsisf.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+__flp                                             /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(realloc.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(malloc.o)
+__fp_cmp                                          /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_cmp.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(cmpsf2.o)
+__fp_inf                                          /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_inf.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(divsf3x.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3x.o)
+__fp_nan                                          /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_nan.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(divsf3x.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3x.o)
+__fp_pscA                                         /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_pscA.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(divsf3x.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3x.o)
+__fp_pscB                                         /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_pscB.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(divsf3x.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3x.o)
+__fp_round                                        /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_round.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(mulsf3.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(divsf3.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3.o)
+__fp_split3                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_split3.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(divsf3x.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3x.o)
+__fp_splitA                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_split3.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fixunssfsi.o)
+__fp_szero                                        /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_zero.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fixsfsi.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(divsf3x.o)
+__fp_zero                                         /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fp_zero.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fixunssfsi.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3x.o)
+__heap_end                                        /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(malloc.o)
+__heap_start                                      /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(malloc.o)
+__init                                            /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__lesf2                                           /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(cmpsf2.o)
+__ltsf2                                           /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(cmpsf2.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+__malloc_heap_end                                 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(malloc.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(realloc.o)
+__malloc_heap_start                               /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(malloc.o)
+__malloc_margin                                   /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(malloc.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(realloc.o)
+__mulsf3                                          /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(mulsf3.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+__mulsf3_pse                                      /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(mulsf3x.o)
+__mulsf3x                                         /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(mulsf3.o)
+__mulsi3                                          /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_mulsi3.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(random.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+__mulsi_const_10                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(mulsi10.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(atol.o)
+__nesf2                                           /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(cmpsf2.o)
+__stack                                           /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__subsf3                                          /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+__tablejump_elpm__                                /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_tablejump_elpm.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_ctors.o)
+__udivmodhi4                                      /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_udivmodhi4.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(utoa.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(itoa.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_divmodhi4.o)
+__udivmodsi4                                      /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_udivmodsi4.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(ultoa.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(ltoa.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_divmodsi4.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+__vector_1                                        /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_10                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_11                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_12                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_13                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_14                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_15                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_16                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_17                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_18                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_19                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_2                                        /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_20                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_21                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_22                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_23                                       /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_24                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_25                                       /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_26                                       /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_27                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_28                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_29                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_3                                        /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_30                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_31                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_32                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_33                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_34                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_35                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_36                                       /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_37                                       /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_38                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_39                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_4                                        /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_40                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_41                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_42                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_43                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_44                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_45                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_46                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_47                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_48                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_49                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_5                                        /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_50                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_51                                       /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_52                                       /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_53                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_54                                       /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_55                                       /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_56                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_6                                        /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_7                                        /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_8                                        /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_9                                        /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_default                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vectors                                         /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+_div                                              /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_divmodhi4.o)
+_exit                                             /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_exit.o)
+atol                                              /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(atol.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+bRead                                             ./main.o
+delay                                             /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
+delayMicroseconds                                 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
+digitalRead                                       /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
+digitalWrite                                      /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
+digital_pin_to_bit_mask_PGM                       /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
+digital_pin_to_port_PGM                           /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
+digital_pin_to_timer_PGM                          /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
+exit                                              /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_exit.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+free                                              /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(malloc.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(realloc.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(new.cpp.o)
+inData                                            ./main.o
+init                                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
+                                                  ./main.o
+isspace                                           /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(isspace.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+itoa                                              /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(itoa.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+ledPin                                            ./main.o
+loop                                              ./main.o
+ltoa                                              /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(ltoa.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+main                                              ./main.o
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+makeWord(unsigned char, unsigned char)            /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o)
+makeWord(unsigned int)                            /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o)
+malloc                                            /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(malloc.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(realloc.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(new.cpp.o)
+map(long, long, long, long, long)                 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o)
+                                                  ./main.o
+memcpy                                            /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(memcpy.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(memmove.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(realloc.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+memmove                                           /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(memmove.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+micros                                            /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
+millis                                            /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+                                                  ./main.o
+operator delete(void*)                            /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(new.cpp.o)
+operator new(unsigned int)                        /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(new.cpp.o)
+operator+(StringSumHelper const&, String const&)  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+operator+(StringSumHelper const&, char const*)    /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+operator+(StringSumHelper const&, char)           /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+operator+(StringSumHelper const&, int)            /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+operator+(StringSumHelper const&, long)           /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+operator+(StringSumHelper const&, unsigned char)  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+operator+(StringSumHelper const&, unsigned int)   /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+operator+(StringSumHelper const&, unsigned long)  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+pinMode                                           /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
+                                                  ./main.o
+port_to_input_PGM                                 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
+port_to_mode_PGM                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
+port_to_output_PGM                                /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
+random                                            /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(random.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o)
+random(long)                                      /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o)
+random(long, long)                                /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o)
+randomSeed(unsigned int)                          /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o)
+random_r                                          /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(random.o)
+realloc                                           /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(realloc.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+rx_buffer                                         /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+rx_buffer1                                        /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+rx_buffer2                                        /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+rx_buffer3                                        /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+serialEvent()                                     /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+serialEvent1()                                    /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+serialEvent2()                                    /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+serialEvent3()                                    /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+serialEventRun()                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+setup                                             ./main.o
+srandom                                           /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(random.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o)
+store_char(unsigned char, ring_buffer*)           /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+strchr                                            /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strchr.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+strcmp                                            /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strcmp.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+strcpy                                            /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strcpy.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+strncmp                                           /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strncmp.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+strncpy                                           /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strncpy.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+strrchr                                           /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strrchr.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+strrev                                            /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strrev.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(utoa.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(ultoa.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(ltoa.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(itoa.o)
+strstr                                            /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strstr.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+timer0_millis                                     /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
+timer0_overflow_count                             /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
+tolower                                           /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(tolower.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+toupper                                           /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(toupper.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+tx_buffer                                         /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+tx_buffer1                                        /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+tx_buffer2                                        /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+tx_buffer3                                        /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+ultoa                                             /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(ultoa.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+utoa                                              /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(utoa.o)
+                                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
+vtable for HardwareSerial                         /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+vtable for Print                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+vtable for Stream                                 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
