@@ -40,5 +40,9 @@ public:
 			//myss.Close();
 			return 0;
         }
+        int write(char byte){
+        	myss << byte;
+
+        }
 
 };
