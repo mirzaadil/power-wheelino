@@ -1,5 +1,5 @@
-ControlServer.d: ../ControlServer.cpp ../SerialComm.h ../udpserver.h
+ControlServer.d: ../ControlServer.cpp ../PSerialComm.h ../udpserver.h
 
-../SerialComm.h:
+../PSerialComm.h:
 
 ../udpserver.h:

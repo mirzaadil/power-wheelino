@@ -79,6 +79,7 @@ public:
 				  pointer = recv_data;
 				  return pointer;
 				  //printf("%d iteration\n",rcvd);
+				  //send connection message every 1000 packets
 				  if (rcvd > 1000){rcvd = 0;}
 				  //printf("\r\n(%s , %d) said : ",inet_ntoa(client_addr.sin_addr),
 				  //				   ntohs(client_addr.sin_port)

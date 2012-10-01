@@ -1,12 +1,14 @@
 #include <iostream>
 #include "pthread.h"
-#include "SerialComm.h"
+#include "PSerialComm.h"
 #include "udpserver.h"
+#include <strings.h>
+#include <string.h>
 
 using namespace std;
 
 struct threadparm_t {
-   SerialComm  *ser;
+   PSerialComm  *ser;
    char  drive;
    char  steering;
 } ;
@@ -14,19 +16,21 @@ struct threadparm_t {
 void *proxyThread(void *ptr);
 
 int main (int argc, char* argv[]){
-	string sDev;
-	sDev = "/dev/pts/1";
+	char sDev[128];
+	strcpy(sDev,"/dev/pts/1\0");
 	if (argc > 1){
-		sDev = argv[1];
+		strcpy(sDev,argv[1]);
+		sDev[strlen(argv[1])] = 0;
 	}
+
 	char * buffer;
 	cout << "Using Serial Port " << sDev << "\n";
-	SerialComm serial(sDev);
+	PSerialComm serial(sDev);
 	udp_server server(50000);
 
 	threadparm_t  gData;
 
-	gData.ser = (SerialComm *) &serial;
+	gData.ser = (PSerialComm *) &serial;
 
 
 	while (1){
@@ -37,6 +41,7 @@ int main (int argc, char* argv[]){
 		gData.steering = buffer[1];
 
 		pthread_t thread;
+
 		pthread_create(&thread, NULL, proxyThread, &gData);
 		pthread_detach(thread);
 
@@ -51,16 +56,16 @@ void *proxyThread (void *ptr){
 	gData = (threadparm_t *) ptr;
 	//SerialComm *mySerial;
 	char buffer[3];
-	buffer[1] = gData->drive;
-	buffer[2] = gData->steering;
-	buffer[3] = 0b00000000;
+	buffer[0] = gData->drive;
+	buffer[1] = gData->steering;
+	buffer[2] = 0x7F;
 
 	//mySerial = (SerialComm *) gData->ser;
 
 	printf("%d \t %d\n\r",gData->drive,gData->steering);
-	//gData->ser->write(buffer);
-	gData->ser->write(gData->drive);
-	gData->ser->write(gData->steering);
-	gData->ser->write((char)0x7F);
+	gData->ser->writeOut(buffer);
+//	gData->ser->write(gData->drive);
+//	gData->ser->write(gData->steering);
+//	gData->ser->write((char)0x7F);
 
 }
