@@ -4,5 +4,5 @@
 
 USER_OBJS :=
 
-LIBS := -lserial -lpthread
+LIBS := -lserial -lexplain -lpthread
 
