@@ -1,15 +1,18 @@
 package com.powerwheelino;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+//import android.content.*;
 import android.os.Handler;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.HapticFeedbackConstants;
 import android.view.MotionEvent;
 import android.view.View;
+import android.content.SharedPreferences;
 
 public class JoystickView extends View {
 	public static final int INVALID_POINTER_ID = -1;
@@ -85,7 +88,7 @@ public class JoystickView extends View {
 	private double angle;
 
 	// User coordinates of last touch point
-	public int userX, userY;
+	private int userX, userY;
 
 	// Offset co-ordinates (used when touch events are received from parent's
 	// coordinate origin)
@@ -141,7 +144,7 @@ public class JoystickView extends View {
 
 		innerPadding = 10;
 
-		setMovementRange(127);
+		setMovementRange(126);
 		setMoveResolution(0.1f);
 		setClickThreshold(0.4f);
 		setYAxisInverted(false);
@@ -301,8 +304,10 @@ public class JoystickView extends View {
 		handleX = touchX + cX;
 		handleY = touchY + cY;
 		canvas.drawCircle(handleX, handleY, handleRadius, handlePaint);
+		SharedPreferences settings  = 
+				this.getContext().getSharedPreferences("Preferences", 0);
 
-		if (true) {
+		if (settings.getBoolean("debugMode", false)) {
 			canvas.drawRect(1, 1, getMeasuredWidth() - 1,
 					getMeasuredHeight() - 1, dbgPaint1);
 
@@ -552,6 +557,12 @@ public class JoystickView extends View {
 	public void setTouchOffset(int x, int y) {
 		offsetX = x;
 		offsetY = y;
+	}
+	public synchronized int getUserX(){
+		return userX;
+	}
+	public synchronized int getUserY(){
+		return userY;
 	}
 	
 }
