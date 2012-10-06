@@ -185,7 +185,7 @@ public class ControlRemoteCar extends Activity {
 										byte drive = (byte) (y & 0x000000FF);
 										byte steering = (byte) (x & 0x000000FF);
 										udp.sendData(drive, steering);
-										Log.d("powerwheelino","coordinates: X: " + x + " Y: " + y);
+										//Log.d("powerwheelino","coordinates: X: " + x + " Y: " + y);
 									}
 									
 								}
