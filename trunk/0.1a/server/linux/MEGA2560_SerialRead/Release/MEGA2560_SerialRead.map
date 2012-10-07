@@ -1,9 +1,9 @@
 Archive member included because of file (symbol)
 
 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
-                              ./main.o (pinMode)
+                              ./Servo.o (pinMode)
 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
-                              ./main.o (millis)
+                              ./main.o (init)
 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
                               ./main.o (_ZN5Print5printEPKc)
 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(new.cpp.o)
@@ -11,9 +11,9 @@ Archive member included because of file (symbol)
 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
                               ./main.o (_ZN6Stream10setTimeoutEm)
 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o)
-                              ./main.o (_Z3maplllll)
+                              ./Servo.o (_Z3maplllll)
 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
-                              ./main.o (_ZN14HardwareSerial5writeEh)
+                              ./main.o (Serial)
 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
                               /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o) (_ZNK6StringixEj)
 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(addsf3.o)
@@ -54,8 +54,10 @@ Archive member included because of file (symbol)
                               /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(mulsf3.o) (__mulsf3x)
 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_mulsi3.o)
                               /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o) (__mulsi3)
+/usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_udivmodqi4.o)
+                              ./Servo.o (__udivmodqi4)
 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_divmodhi4.o)
-                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o) (__divmodhi4)
+                              ./Servo.o (__divmodhi4)
 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_udivmodsi4.o)
                               /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o) (__udivmodsi4)
 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_divmodsi4.o)
@@ -65,9 +67,9 @@ Archive member included because of file (symbol)
 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_copy_data.o)
                               ./main.o (__do_copy_data)
 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_clear_bss.o)
-                              ./main.o (__do_clear_bss)
+                              ./Servo.o (__do_clear_bss)
 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_ctors.o)
-                              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o) (__do_global_ctors)
+                              ./main.o (__do_global_ctors)
 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_udivmodhi4.o)
                               /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_divmodhi4.o) (__udivmodhi4)
 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_tablejump_elpm.o)
@@ -131,6 +133,17 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
  .stab          0x0000000000000000      0x6e4 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
  .stabstr       0x0000000000000000       0x64 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+ .text          0x0000000000000000        0x0 ./Servo.o
+ .data          0x0000000000000000        0x0 ./Servo.o
+ .bss           0x0000000000000000        0x0 ./Servo.o
+ .text._ZN5Servo6detachEv
+                0x0000000000000000       0x1c ./Servo.o
+ .text._ZN5Servo16readMicrosecondsEv
+                0x0000000000000000       0x3e ./Servo.o
+ .text._ZN5Servo4readEv
+                0x0000000000000000       0xb2 ./Servo.o
+ .text._ZN5Servo8attachedEv
+                0x0000000000000000       0x20 ./Servo.o
  .text          0x0000000000000000        0x0 ./main.o
  .bss           0x0000000000000000        0x0 ./main.o
  .text          0x0000000000000000        0x0 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
@@ -138,10 +151,6 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
  .stab          0x0000000000000000      0xb34 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
  .stabstr       0x0000000000000000      0xfdd /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
- .text.turnOffPWM
-                0x0000000000000000       0xe8 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
- .text.digitalWrite
-                0x0000000000000000       0x70 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
  .text.digitalRead
                 0x0000000000000000       0x54 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
  .text          0x0000000000000000        0x0 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
@@ -172,6 +181,10 @@ Discarded input sections
                 0x0000000000000000       0x26 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
  .text._ZN5Print7printlnERK9Printable
                 0x0000000000000000       0x26 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+ .text._ZN5Print5printEmi
+                0x0000000000000000       0x1e /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+ .text._ZN5Print7printlnEmi
+                0x0000000000000000       0x26 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
  .text._ZN5Print5printEji
                 0x0000000000000000        0xe /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
  .text._ZN5Print7printlnEji
@@ -180,8 +193,8 @@ Discarded input sections
                 0x0000000000000000       0x10 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
  .text._ZN5Print7printlnEhi
                 0x0000000000000000       0x30 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
- .text._ZN5Print5printEii
-                0x0000000000000000       0x14 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+ .text._ZN5Print7printlnEli
+                0x0000000000000000       0x26 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
  .text._ZN5Print10printFloatEdh
                 0x0000000000000000      0x16c /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
  .text._ZN5Print5printEdi
@@ -532,6 +545,9 @@ Discarded input sections
  .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_mulsi3.o)
  .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_mulsi3.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_mulsi3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_udivmodqi4.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_udivmodqi4.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_udivmodqi4.o)
  .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_divmodhi4.o)
  .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_divmodhi4.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_divmodhi4.o)
@@ -741,6 +757,7 @@ Linker script and memory map
 
 Address of section .data set to 0x800200
 LOAD /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+LOAD ./Servo.o
 LOAD ./main.o
 LOAD /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a
 LOAD /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a
@@ -839,7 +856,7 @@ LOAD /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a
 .rela.plt
  *(.rela.plt)
 
-.text           0x0000000000000000     0x1308
+.text           0x0000000000000000     0x1a2c
  *(.vectors)
  .vectors       0x0000000000000000       0xe4 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
                 0x0000000000000000                __vectors
@@ -866,223 +883,253 @@ LOAD /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a
  *(.lowtext*)
                 0x0000000000000204                __ctors_start = .
  *(.ctors)
- .ctors         0x0000000000000204        0x2 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
-                0x0000000000000206                __ctors_end = .
-                0x0000000000000206                __dtors_start = .
+ .ctors         0x0000000000000204        0x2 ./main.o
+ .ctors         0x0000000000000206        0x2 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000000208                __ctors_end = .
+                0x0000000000000208                __dtors_start = .
  *(.dtors)
-                0x0000000000000206                __dtors_end = .
+                0x0000000000000208                __dtors_end = .
  SORT(*)(.ctors)
  SORT(*)(.dtors)
  *(.init0)
- .init0         0x0000000000000206        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
-                0x0000000000000206                __init
+ .init0         0x0000000000000208        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+                0x0000000000000208                __init
  *(.init0)
  *(.init1)
  *(.init1)
  *(.init2)
- .init2         0x0000000000000206       0x10 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+ .init2         0x0000000000000208       0x10 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
  *(.init2)
  *(.init3)
  *(.init3)
  *(.init4)
- .init4         0x0000000000000216       0x1a /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_copy_data.o)
-                0x0000000000000216                __do_copy_data
- .init4         0x0000000000000230       0x10 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_clear_bss.o)
-                0x0000000000000230                __do_clear_bss
+ .init4         0x0000000000000218       0x1a /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_copy_data.o)
+                0x0000000000000218                __do_copy_data
+ .init4         0x0000000000000232       0x10 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_clear_bss.o)
+                0x0000000000000232                __do_clear_bss
  *(.init4)
  *(.init5)
  *(.init5)
  *(.init6)
- .init6         0x0000000000000240       0x20 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_ctors.o)
-                0x0000000000000240                __do_global_ctors
+ .init6         0x0000000000000242       0x20 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_ctors.o)
+                0x0000000000000242                __do_global_ctors
  *(.init6)
  *(.init7)
  *(.init7)
  *(.init8)
  *(.init8)
  *(.init9)
- .init9         0x0000000000000260        0x8 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+ .init9         0x0000000000000262        0x8 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
  *(.init9)
  *(.text)
- .text          0x0000000000000268        0x4 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
-                0x0000000000000268                __vector_38
-                0x0000000000000268                __vector_22
-                0x0000000000000268                __vector_28
-                0x0000000000000268                __vector_1
-                0x0000000000000268                __vector_32
-                0x0000000000000268                __vector_34
-                0x0000000000000268                __vector_24
-                0x0000000000000268                __vector_12
-                0x0000000000000268                __vector_46
-                0x0000000000000268                __bad_interrupt
-                0x0000000000000268                __vector_6
-                0x0000000000000268                __vector_31
-                0x0000000000000268                __vector_35
-                0x0000000000000268                __vector_39
-                0x0000000000000268                __vector_3
-                0x0000000000000268                __vector_30
-                0x0000000000000268                __vector_45
-                0x0000000000000268                __vector_11
-                0x0000000000000268                __vector_13
-                0x0000000000000268                __vector_17
-                0x0000000000000268                __vector_19
-                0x0000000000000268                __vector_56
-                0x0000000000000268                __vector_7
-                0x0000000000000268                __vector_49
-                0x0000000000000268                __vector_41
-                0x0000000000000268                __vector_43
-                0x0000000000000268                __vector_27
-                0x0000000000000268                __vector_5
-                0x0000000000000268                __vector_33
-                0x0000000000000268                __vector_47
-                0x0000000000000268                __vector_4
-                0x0000000000000268                __vector_44
-                0x0000000000000268                __vector_9
-                0x0000000000000268                __vector_2
-                0x0000000000000268                __vector_21
-                0x0000000000000268                __vector_15
-                0x0000000000000268                __vector_29
-                0x0000000000000268                __vector_40
-                0x0000000000000268                __vector_8
-                0x0000000000000268                __vector_48
-                0x0000000000000268                __vector_14
-                0x0000000000000268                __vector_53
-                0x0000000000000268                __vector_10
-                0x0000000000000268                __vector_50
-                0x0000000000000268                __vector_16
-                0x0000000000000268                __vector_18
-                0x0000000000000268                __vector_20
-                0x0000000000000268                __vector_42
-                0x000000000000026c                . = ALIGN (0x2)
+ .text          0x000000000000026a        0x4 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+                0x000000000000026a                __vector_38
+                0x000000000000026a                __vector_22
+                0x000000000000026a                __vector_28
+                0x000000000000026a                __vector_1
+                0x000000000000026a                __vector_34
+                0x000000000000026a                __vector_24
+                0x000000000000026a                __vector_12
+                0x000000000000026a                __vector_46
+                0x000000000000026a                __bad_interrupt
+                0x000000000000026a                __vector_6
+                0x000000000000026a                __vector_31
+                0x000000000000026a                __vector_35
+                0x000000000000026a                __vector_39
+                0x000000000000026a                __vector_3
+                0x000000000000026a                __vector_30
+                0x000000000000026a                __vector_45
+                0x000000000000026a                __vector_11
+                0x000000000000026a                __vector_13
+                0x000000000000026a                __vector_19
+                0x000000000000026a                __vector_56
+                0x000000000000026a                __vector_7
+                0x000000000000026a                __vector_49
+                0x000000000000026a                __vector_41
+                0x000000000000026a                __vector_43
+                0x000000000000026a                __vector_27
+                0x000000000000026a                __vector_5
+                0x000000000000026a                __vector_33
+                0x000000000000026a                __vector_4
+                0x000000000000026a                __vector_44
+                0x000000000000026a                __vector_9
+                0x000000000000026a                __vector_2
+                0x000000000000026a                __vector_21
+                0x000000000000026a                __vector_15
+                0x000000000000026a                __vector_29
+                0x000000000000026a                __vector_40
+                0x000000000000026a                __vector_8
+                0x000000000000026a                __vector_48
+                0x000000000000026a                __vector_14
+                0x000000000000026a                __vector_53
+                0x000000000000026a                __vector_10
+                0x000000000000026a                __vector_50
+                0x000000000000026a                __vector_16
+                0x000000000000026a                __vector_18
+                0x000000000000026a                __vector_20
+                0x000000000000026e                . = ALIGN (0x2)
  *(.text.*)
- .text.setup    0x000000000000026c       0x5a ./main.o
-                0x000000000000026c                setup
- .text.loop     0x00000000000002c6      0x196 ./main.o
-                0x00000000000002c6                loop
- .text.main     0x000000000000045c        0xe ./main.o
-                0x000000000000045c                main
- .text.pinMode  0x000000000000046a       0x48 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
-                0x000000000000046a                pinMode
+ .text._ZL17handle_interrupts18timer16_Sequence_tPVjS1_
+                0x000000000000026e      0x18c ./Servo.o
+ .text.__vector_17
+                0x00000000000003fa       0x5c ./Servo.o
+                0x00000000000003fa                __vector_17
+ .text.__vector_32
+                0x0000000000000456       0x5c ./Servo.o
+                0x0000000000000456                __vector_32
+ .text.__vector_42
+                0x00000000000004b2       0x5c ./Servo.o
+                0x00000000000004b2                __vector_42
+ .text.__vector_47
+                0x000000000000050e       0x5c ./Servo.o
+                0x000000000000050e                __vector_47
+ .text._ZN5ServoC2Ev
+                0x000000000000056a       0x34 ./Servo.o
+                0x000000000000056a                _ZN5ServoC2Ev
+                0x000000000000056a                _ZN5ServoC1Ev
+ .text._ZN5Servo6attachEiii
+                0x000000000000059e      0x160 ./Servo.o
+                0x000000000000059e                _ZN5Servo6attachEiii
+ .text._ZN5Servo6attachEi
+                0x00000000000006fe        0xe ./Servo.o
+                0x00000000000006fe                _ZN5Servo6attachEi
+ .text._ZN5Servo17writeMicrosecondsEi
+                0x000000000000070c       0x8a ./Servo.o
+                0x000000000000070c                _ZN5Servo17writeMicrosecondsEi
+ .text._ZN5Servo5writeEi
+                0x0000000000000796       0xc8 ./Servo.o
+                0x0000000000000796                _ZN5Servo5writeEi
+ .text.setup    0x000000000000085e       0x68 ./main.o
+                0x000000000000085e                setup
+ .text.loop     0x00000000000008c6      0x18e ./main.o
+                0x00000000000008c6                loop
+ .text.main     0x0000000000000a54        0xe ./main.o
+                0x0000000000000a54                main
+ .text._GLOBAL__I_inData
+                0x0000000000000a62       0x12 ./main.o
+ .text.turnOffPWM
+                0x0000000000000a74       0xe8 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
+ .text.pinMode  0x0000000000000b5c       0x48 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
+                0x0000000000000b5c                pinMode
+ .text.digitalWrite
+                0x0000000000000ba4       0x70 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
+                0x0000000000000ba4                digitalWrite
  .text.__vector_23
-                0x00000000000004b2       0x90 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
-                0x00000000000004b2                __vector_23
- .text.millis   0x0000000000000542       0x1c /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
-                0x0000000000000542                millis
- .text.init     0x000000000000055e       0xc4 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
-                0x000000000000055e                init
+                0x0000000000000c14       0x90 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
+                0x0000000000000c14                __vector_23
+ .text.millis   0x0000000000000ca4       0x1c /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
+                0x0000000000000ca4                millis
+ .text.init     0x0000000000000cc0       0xc4 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
+                0x0000000000000cc0                init
  .text._ZN5Print5writeEPKhj
-                0x0000000000000622       0x54 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
-                0x0000000000000622                _ZN5Print5writeEPKhj
+                0x0000000000000d84       0x54 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+                0x0000000000000d84                _ZN5Print5writeEPKhj
  .text._ZN5Print5writeEPKc
-                0x0000000000000676       0x22 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
-                0x0000000000000676                _ZN5Print5writeEPKc
+                0x0000000000000dd8       0x22 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+                0x0000000000000dd8                _ZN5Print5writeEPKc
  .text._ZN5Print5printEPKc
-                0x0000000000000698        0x6 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
-                0x0000000000000698                _ZN5Print5printEPKc
+                0x0000000000000dfa        0x6 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+                0x0000000000000dfa                _ZN5Print5printEPKc
  .text._ZN5Print5printEc
-                0x000000000000069e       0x10 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
-                0x000000000000069e                _ZN5Print5printEc
+                0x0000000000000e00       0x10 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+                0x0000000000000e00                _ZN5Print5printEc
  .text._ZN5Print7printlnEv
-                0x00000000000006ae       0x2a /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
-                0x00000000000006ae                _ZN5Print7printlnEv
+                0x0000000000000e10       0x2a /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+                0x0000000000000e10                _ZN5Print7printlnEv
  .text._ZN5Print7printlnEPKc
-                0x00000000000006d8       0x26 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
-                0x00000000000006d8                _ZN5Print7printlnEPKc
+                0x0000000000000e3a       0x26 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+                0x0000000000000e3a                _ZN5Print7printlnEPKc
  .text._ZN5Print11printNumberEmh
-                0x00000000000006fe       0xb4 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
-                0x00000000000006fe                _ZN5Print11printNumberEmh
- .text._ZN5Print5printEmi
-                0x00000000000007b2       0x1e /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
-                0x00000000000007b2                _ZN5Print5printEmi
- .text._ZN5Print7printlnEmi
-                0x00000000000007d0       0x26 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
-                0x00000000000007d0                _ZN5Print7printlnEmi
+                0x0000000000000e60       0xb4 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+                0x0000000000000e60                _ZN5Print11printNumberEmh
  .text._ZN5Print5printEli
-                0x00000000000007f6       0x76 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
-                0x00000000000007f6                _ZN5Print5printEli
- .text._ZN5Print7printlnEli
-                0x000000000000086c       0x26 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
-                0x000000000000086c                _ZN5Print7printlnEli
+                0x0000000000000f14       0x76 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+                0x0000000000000f14                _ZN5Print5printEli
+ .text._ZN5Print5printEii
+                0x0000000000000f8a       0x14 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+                0x0000000000000f8a                _ZN5Print5printEii
  .text._ZN5Print7printlnEii
-                0x0000000000000892       0x36 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
-                0x0000000000000892                _ZN5Print7printlnEii
+                0x0000000000000f9e       0x36 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+                0x0000000000000f9e                _ZN5Print7printlnEii
  .text._ZN6Stream9timedReadEv
-                0x00000000000008c8       0x58 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
-                0x00000000000008c8                _ZN6Stream9timedReadEv
+                0x0000000000000fd4       0x58 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+                0x0000000000000fd4                _ZN6Stream9timedReadEv
  .text._ZN6Stream10setTimeoutEm
-                0x0000000000000920        0xc /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
-                0x0000000000000920                _ZN6Stream10setTimeoutEm
+                0x000000000000102c        0xc /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+                0x000000000000102c                _ZN6Stream10setTimeoutEm
  .text._ZN6Stream14readBytesUntilEcPcj
-                0x000000000000092c       0x68 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
-                0x000000000000092c                _ZN6Stream14readBytesUntilEcPcj
+                0x0000000000001038       0x68 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
+                0x0000000000001038                _ZN6Stream14readBytesUntilEcPcj
  .text._Z3maplllll
-                0x0000000000000994       0x92 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o)
-                0x0000000000000994                _Z3maplllll
+                0x00000000000010a0       0x92 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o)
+                0x00000000000010a0                _Z3maplllll
  .text._ZN14HardwareSerial9availableEv
-                0x0000000000000a26       0x26 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
-                0x0000000000000a26                _ZN14HardwareSerial9availableEv
+                0x0000000000001132       0x26 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000001132                _ZN14HardwareSerial9availableEv
  .text._ZN14HardwareSerial4peekEv
-                0x0000000000000a4c       0x38 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
-                0x0000000000000a4c                _ZN14HardwareSerial4peekEv
+                0x0000000000001158       0x38 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000001158                _ZN14HardwareSerial4peekEv
  .text._ZN14HardwareSerial4readEv
-                0x0000000000000a84       0x44 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
-                0x0000000000000a84                _ZN14HardwareSerial4readEv
+                0x0000000000001190       0x44 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000001190                _ZN14HardwareSerial4readEv
  .text._ZN14HardwareSerial5flushEv
-                0x0000000000000ac8       0x28 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
-                0x0000000000000ac8                _ZN14HardwareSerial5flushEv
+                0x00000000000011d4       0x28 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x00000000000011d4                _ZN14HardwareSerial5flushEv
  .text._ZN14HardwareSerial5writeEh
-                0x0000000000000af0       0x72 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
-                0x0000000000000af0                _ZN14HardwareSerial5writeEh
+                0x00000000000011fc       0x72 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x00000000000011fc                _ZN14HardwareSerial5writeEh
  .text._Z10store_charhP11ring_buffer
-                0x0000000000000b62       0x34 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
-                0x0000000000000b62                _Z10store_charhP11ring_buffer
+                0x000000000000126e       0x34 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x000000000000126e                _Z10store_charhP11ring_buffer
  .text.__vector_25
-                0x0000000000000b96       0x58 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
-                0x0000000000000b96                __vector_25
+                0x00000000000012a2       0x58 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x00000000000012a2                __vector_25
  .text.__vector_36
-                0x0000000000000bee       0x58 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
-                0x0000000000000bee                __vector_36
+                0x00000000000012fa       0x58 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x00000000000012fa                __vector_36
  .text.__vector_51
-                0x0000000000000c46       0x58 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
-                0x0000000000000c46                __vector_51
+                0x0000000000001352       0x58 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000001352                __vector_51
  .text.__vector_54
-                0x0000000000000c9e       0x58 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
-                0x0000000000000c9e                __vector_54
+                0x00000000000013aa       0x58 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x00000000000013aa                __vector_54
  .text.__vector_26
-                0x0000000000000cf6       0x96 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
-                0x0000000000000cf6                __vector_26
+                0x0000000000001402       0x96 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000001402                __vector_26
  .text.__vector_37
-                0x0000000000000d8c       0x96 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
-                0x0000000000000d8c                __vector_37
+                0x0000000000001498       0x96 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000001498                __vector_37
  .text.__vector_52
-                0x0000000000000e22       0x96 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
-                0x0000000000000e22                __vector_52
+                0x000000000000152e       0x96 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x000000000000152e                __vector_52
  .text.__vector_55
-                0x0000000000000eb8       0x96 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
-                0x0000000000000eb8                __vector_55
+                0x00000000000015c4       0x96 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x00000000000015c4                __vector_55
  .text._ZN14HardwareSerial5beginEm
-                0x0000000000000f4e       0xfc /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
-                0x0000000000000f4e                _ZN14HardwareSerial5beginEm
+                0x000000000000165a       0xfc /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x000000000000165a                _ZN14HardwareSerial5beginEm
  .text._GLOBAL__I_rx_buffer
-                0x000000000000104a      0x1ac /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
- .text.libgcc   0x00000000000011f6       0x3e /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_mulsi3.o)
-                0x00000000000011f6                __mulsi3
- .text.libgcc   0x0000000000001234       0x26 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_divmodhi4.o)
-                0x0000000000001234                __divmodhi4
-                0x0000000000001234                _div
- .text.libgcc   0x000000000000125a       0x44 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_udivmodsi4.o)
-                0x000000000000125a                __udivmodsi4
- .text.libgcc   0x000000000000129e       0x36 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_divmodsi4.o)
-                0x000000000000129e                __divmodsi4
- .text.libgcc   0x00000000000012d4       0x28 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_udivmodhi4.o)
-                0x00000000000012d4                __udivmodhi4
- .text.libgcc   0x00000000000012fc        0x8 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_tablejump_elpm.o)
-                0x00000000000012fc                __tablejump_elpm__
-                0x0000000000001304                . = ALIGN (0x2)
+                0x0000000000001756      0x1ac /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+ .text.libgcc   0x0000000000001902       0x3e /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_mulsi3.o)
+                0x0000000000001902                __mulsi3
+ .text.libgcc   0x0000000000001940       0x18 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_udivmodqi4.o)
+                0x0000000000001940                __udivmodqi4
+ .text.libgcc   0x0000000000001958       0x26 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_divmodhi4.o)
+                0x0000000000001958                __divmodhi4
+                0x0000000000001958                _div
+ .text.libgcc   0x000000000000197e       0x44 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_udivmodsi4.o)
+                0x000000000000197e                __udivmodsi4
+ .text.libgcc   0x00000000000019c2       0x36 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_divmodsi4.o)
+                0x00000000000019c2                __divmodsi4
+ .text.libgcc   0x00000000000019f8       0x28 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_udivmodhi4.o)
+                0x00000000000019f8                __udivmodhi4
+ .text.libgcc   0x0000000000001a20        0x8 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_tablejump_elpm.o)
+                0x0000000000001a20                __tablejump_elpm__
+                0x0000000000001a28                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x0000000000001304        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_exit.o)
-                0x0000000000001304                exit
-                0x0000000000001304                _exit
+ .fini9         0x0000000000001a28        0x0 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_exit.o)
+                0x0000000000001a28                exit
+                0x0000000000001a28                _exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -1101,86 +1148,107 @@ LOAD /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x0000000000001304        0x4 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_exit.o)
+ .fini0         0x0000000000001a28        0x4 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_exit.o)
  *(.fini0)
-                0x0000000000001308                _etext = .
+                0x0000000000001a2c                _etext = .
 
-.data           0x0000000000800200       0x6a load address 0x0000000000001308
+.data           0x0000000000800200       0x36 load address 0x0000000000001a2c
                 0x0000000000800200                PROVIDE (__data_start, .)
  *(.data)
- .data          0x0000000000800200       0x58 ./main.o
+ .data          0x0000000000800200       0x26 ./main.o
  *(.data*)
- .data.ledPin   0x0000000000800258        0x2 ./main.o
-                0x0000000000800258                ledPin
  *(.rodata)
  *(.rodata*)
  .rodata._ZTV14HardwareSerial
-                0x000000000080025a       0x10 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
-                0x000000000080025a                _ZTV14HardwareSerial
+                0x0000000000800226       0x10 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000800226                _ZTV14HardwareSerial
  *(.gnu.linkonce.d*)
-                0x000000000080026a                . = ALIGN (0x2)
-                0x000000000080026a                _edata = .
-                0x000000000080026a                PROVIDE (__data_end, .)
+                0x0000000000800236                . = ALIGN (0x2)
+                0x0000000000800236                _edata = .
+                0x0000000000800236                PROVIDE (__data_end, .)
 
-.bss            0x000000000080026a      0x2b7
-                0x000000000080026a                PROVIDE (__bss_start, .)
+.bss            0x0000000000800236      0x34e
+                0x0000000000800236                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
- .bss.inData    0x000000000080026a       0x10 ./main.o
-                0x000000000080026a                inData
- .bss.bRead     0x000000000080027a        0x2 ./main.o
-                0x000000000080027a                bRead
+ .bss.ServoCount
+                0x0000000000800236        0x1 ./Servo.o
+                0x0000000000800236                ServoCount
+ .bss._ZL6servos
+                0x0000000000800237       0x90 ./Servo.o
+ .bss._ZL7Channel
+                0x00000000008002c7        0x4 ./Servo.o
+ .bss.inData    0x00000000008002cb        0x4 ./main.o
+                0x00000000008002cb                inData
+ .bss.bRead     0x00000000008002cf        0x2 ./main.o
+                0x00000000008002cf                bRead
+ .bss.steering  0x00000000008002d1        0x3 ./main.o
+                0x00000000008002d1                steering
+ .bss.drive     0x00000000008002d4        0x3 ./main.o
+                0x00000000008002d4                drive
+ .bss.rawSteeringVal
+                0x00000000008002d7        0x2 ./main.o
+                0x00000000008002d7                rawSteeringVal
+ .bss.rawDriveVal
+                0x00000000008002d9        0x2 ./main.o
+                0x00000000008002d9                rawDriveVal
+ .bss.processedSteeringVal
+                0x00000000008002db        0x2 ./main.o
+                0x00000000008002db                processedSteeringVal
+ .bss.processedDriveVal
+                0x00000000008002dd        0x2 ./main.o
+                0x00000000008002dd                processedDriveVal
  .bss.timer0_overflow_count
-                0x000000000080027c        0x4 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
-                0x000000000080027c                timer0_overflow_count
+                0x00000000008002df        0x4 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
+                0x00000000008002df                timer0_overflow_count
  .bss.timer0_millis
-                0x0000000000800280        0x4 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
-                0x0000000000800280                timer0_millis
+                0x00000000008002e3        0x4 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
+                0x00000000008002e3                timer0_millis
  .bss.timer0_fract
-                0x0000000000800284        0x1 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
+                0x00000000008002e7        0x1 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
  .bss.rx_buffer
-                0x0000000000800285       0x44 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
-                0x0000000000800285                rx_buffer
+                0x00000000008002e8       0x44 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x00000000008002e8                rx_buffer
  .bss.tx_buffer
-                0x00000000008002c9       0x44 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
-                0x00000000008002c9                tx_buffer
+                0x000000000080032c       0x44 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x000000000080032c                tx_buffer
  .bss.rx_buffer1
-                0x000000000080030d       0x44 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
-                0x000000000080030d                rx_buffer1
+                0x0000000000800370       0x44 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000800370                rx_buffer1
  .bss.tx_buffer1
-                0x0000000000800351       0x44 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
-                0x0000000000800351                tx_buffer1
+                0x00000000008003b4       0x44 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x00000000008003b4                tx_buffer1
  .bss.rx_buffer2
-                0x0000000000800395       0x44 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
-                0x0000000000800395                rx_buffer2
+                0x00000000008003f8       0x44 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x00000000008003f8                rx_buffer2
  .bss.tx_buffer2
-                0x00000000008003d9       0x44 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
-                0x00000000008003d9                tx_buffer2
+                0x000000000080043c       0x44 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x000000000080043c                tx_buffer2
  .bss.rx_buffer3
-                0x000000000080041d       0x44 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
-                0x000000000080041d                rx_buffer3
+                0x0000000000800480       0x44 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000800480                rx_buffer3
  .bss.tx_buffer3
-                0x0000000000800461       0x44 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
-                0x0000000000800461                tx_buffer3
- .bss.Serial    0x00000000008004a5       0x1f /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
-                0x00000000008004a5                Serial
- .bss.Serial1   0x00000000008004c4       0x1f /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
-                0x00000000008004c4                Serial1
- .bss.Serial2   0x00000000008004e3       0x1f /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
-                0x00000000008004e3                Serial2
- .bss.Serial3   0x0000000000800502       0x1f /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
-                0x0000000000800502                Serial3
+                0x00000000008004c4       0x44 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x00000000008004c4                tx_buffer3
+ .bss.Serial    0x0000000000800508       0x1f /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000800508                Serial
+ .bss.Serial1   0x0000000000800527       0x1f /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000800527                Serial1
+ .bss.Serial2   0x0000000000800546       0x1f /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000800546                Serial2
+ .bss.Serial3   0x0000000000800565       0x1f /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                0x0000000000800565                Serial3
  *(COMMON)
-                0x0000000000800521                PROVIDE (__bss_end, .)
-                0x0000000000001308                __data_load_start = LOADADDR (.data)
-                0x0000000000001372                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x0000000000800584                PROVIDE (__bss_end, .)
+                0x0000000000001a2c                __data_load_start = LOADADDR (.data)
+                0x0000000000001a62                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x0000000000800521        0x0
-                0x0000000000800521                PROVIDE (__noinit_start, .)
+.noinit         0x0000000000800584        0x0
+                0x0000000000800584                PROVIDE (__noinit_start, .)
  *(.noinit*)
-                0x0000000000800521                PROVIDE (__noinit_end, .)
-                0x0000000000800521                _end = .
-                0x0000000000800521                PROVIDE (__heap_start, .)
+                0x0000000000800584                PROVIDE (__noinit_end, .)
+                0x0000000000800584                _end = .
+                0x0000000000800584                PROVIDE (__heap_start, .)
 
 .eeprom         0x0000000000810000        0x0
  *(.eeprom*)
@@ -1274,7 +1342,6 @@ HardwareSerial::flush()                           /home/kranzrm/workspace/MEGA25
 HardwareSerial::peek()                            /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
 HardwareSerial::read()                            /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
 HardwareSerial::write(unsigned char)              /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
-                                                  ./main.o
 Print::print(Printable const&)                    /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
 Print::print(String const&)                       /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
 Print::print(__FlashStringHelper const*)          /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
@@ -1283,6 +1350,7 @@ Print::print(char const*)                         /home/kranzrm/workspace/MEGA25
 Print::print(char)                                /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
 Print::print(double, int)                         /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
 Print::print(int, int)                            /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
+                                                  ./main.o
 Print::print(long, int)                           /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
 Print::print(unsigned char, int)                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
 Print::print(unsigned int, int)                   /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
@@ -1300,11 +1368,9 @@ Print::println(double, int)                       /home/kranzrm/workspace/MEGA25
 Print::println(int, int)                          /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
                                                   ./main.o
 Print::println(long, int)                         /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
-                                                  ./main.o
 Print::println(unsigned char, int)                /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
 Print::println(unsigned int, int)                 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
 Print::println(unsigned long, int)                /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
-                                                  ./main.o
 Print::write(char const*)                         /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
 Print::write(unsigned char const*, unsigned int)  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
                                                   /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
@@ -1313,6 +1379,20 @@ Serial                                            /home/kranzrm/workspace/MEGA25
 Serial1                                           /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
 Serial2                                           /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
 Serial3                                           /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+Servo::Servo()                                    ./Servo.o
+Servo::Servo()                                    ./Servo.o
+                                                  ./main.o
+Servo::attach(int)                                ./Servo.o
+                                                  ./main.o
+Servo::attach(int, int, int)                      ./Servo.o
+Servo::attached()                                 ./Servo.o
+Servo::detach()                                   ./Servo.o
+Servo::read()                                     ./Servo.o
+Servo::readMicroseconds()                         ./Servo.o
+Servo::write(int)                                 ./Servo.o
+                                                  ./main.o
+Servo::writeMicroseconds(int)                     ./Servo.o
+ServoCount                                        ./Servo.o
 Stream::find(char*)                               /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
 Stream::find(char*, unsigned int)                 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
 Stream::findUntil(char*, char*)                   /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
@@ -1421,6 +1501,7 @@ __data_load_start                                 /usr/lib/gcc/avr/4.5.3/avr6/li
 __data_start                                      /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_copy_data.o)
 __divmodhi4                                       /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_divmodhi4.o)
                                                   /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                                                  ./Servo.o
 __divmodsi4                                       /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_divmodsi4.o)
                                                   /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(random.o)
                                                   /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o)
@@ -1435,6 +1516,7 @@ __do_clear_bss                                    /usr/lib/gcc/avr/4.5.3/avr6/li
                                                   /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
                                                   /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
                                                   ./main.o
+                                                  ./Servo.o
 __do_copy_data                                    /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_copy_data.o)
                                                   /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(random.o)
                                                   /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(malloc.o)
@@ -1444,6 +1526,7 @@ __do_copy_data                                    /usr/lib/gcc/avr/4.5.3/avr6/li
                                                   ./main.o
 __do_global_ctors                                 /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_ctors.o)
                                                   /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
+                                                  ./main.o
 __eqsf2                                           /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(cmpsf2.o)
 __fixsfsi                                         /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libm.a(fixsfsi.o)
                                                   /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Print.cpp.o)
@@ -1526,6 +1609,8 @@ __udivmodhi4                                      /usr/lib/gcc/avr/4.5.3/avr6/li
                                                   /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(utoa.o)
                                                   /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(itoa.o)
                                                   /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_divmodhi4.o)
+__udivmodqi4                                      /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_udivmodqi4.o)
+                                                  ./Servo.o
 __udivmodsi4                                      /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_udivmodsi4.o)
                                                   /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(ultoa.o)
                                                   /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(ltoa.o)
@@ -1540,7 +1625,8 @@ __vector_13                                       /usr/lib/gcc/avr/4.5.3/../../.
 __vector_14                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
 __vector_15                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
 __vector_16                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
-__vector_17                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_17                                       ./Servo.o
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
 __vector_18                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
 __vector_19                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
 __vector_2                                        /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
@@ -1560,7 +1646,8 @@ __vector_29                                       /usr/lib/gcc/avr/4.5.3/../../.
 __vector_3                                        /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
 __vector_30                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
 __vector_31                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
-__vector_32                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_32                                       ./Servo.o
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
 __vector_33                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
 __vector_34                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
 __vector_35                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
@@ -1573,12 +1660,14 @@ __vector_39                                       /usr/lib/gcc/avr/4.5.3/../../.
 __vector_4                                        /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
 __vector_40                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
 __vector_41                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
-__vector_42                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_42                                       ./Servo.o
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
 __vector_43                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
 __vector_44                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
 __vector_45                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
 __vector_46                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
-__vector_47                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
+__vector_47                                       ./Servo.o
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
 __vector_48                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
 __vector_49                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
 __vector_5                                        /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
@@ -1608,9 +1697,11 @@ delay                                             /home/kranzrm/workspace/MEGA25
 delayMicroseconds                                 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
 digitalRead                                       /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
 digitalWrite                                      /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
+                                                  ./Servo.o
 digital_pin_to_bit_mask_PGM                       /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
 digital_pin_to_port_PGM                           /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
 digital_pin_to_timer_PGM                          /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
+drive                                             ./main.o
 exit                                              /usr/lib/gcc/avr/4.5.3/avr6/libgcc.a(_exit.o)
                                                   /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/crtm2560.o
 free                                              /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(malloc.o)
@@ -1624,7 +1715,6 @@ isspace                                           /usr/lib/gcc/avr/4.5.3/../../.
                                                   /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
 itoa                                              /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(itoa.o)
                                                   /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
-ledPin                                            ./main.o
 loop                                              ./main.o
 ltoa                                              /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(ltoa.o)
                                                   /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
@@ -1637,6 +1727,7 @@ malloc                                            /usr/lib/gcc/avr/4.5.3/../../.
                                                   /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(new.cpp.o)
 map(long, long, long, long, long)                 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o)
                                                   ./main.o
+                                                  ./Servo.o
 memcpy                                            /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(memcpy.o)
                                                   /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(memmove.o)
                                                   /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(realloc.o)
@@ -1646,7 +1737,6 @@ memmove                                           /usr/lib/gcc/avr/4.5.3/../../.
 micros                                            /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
 millis                                            /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring.c.o)
                                                   /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(Stream.cpp.o)
-                                                  ./main.o
 operator delete(void*)                            /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(new.cpp.o)
 operator new(unsigned int)                        /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(new.cpp.o)
 operator+(StringSumHelper const&, String const&)  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
@@ -1658,16 +1748,20 @@ operator+(StringSumHelper const&, unsigned char)  /home/kranzrm/workspace/MEGA25
 operator+(StringSumHelper const&, unsigned int)   /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
 operator+(StringSumHelper const&, unsigned long)  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
 pinMode                                           /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
-                                                  ./main.o
+                                                  ./Servo.o
 port_to_input_PGM                                 /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
 port_to_mode_PGM                                  /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
 port_to_output_PGM                                /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(wiring_digital.c.o)
+processedDriveVal                                 ./main.o
+processedSteeringVal                              ./main.o
 random                                            /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(random.o)
                                                   /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o)
 random(long)                                      /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o)
 random(long, long)                                /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o)
 randomSeed(unsigned int)                          /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o)
 random_r                                          /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(random.o)
+rawDriveVal                                       ./main.o
+rawSteeringVal                                    ./main.o
 realloc                                           /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(realloc.o)
                                                   /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
 rx_buffer                                         /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
@@ -1682,6 +1776,7 @@ serialEventRun()                                  /home/kranzrm/workspace/MEGA25
 setup                                             ./main.o
 srandom                                           /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(random.o)
                                                   /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WMath.cpp.o)
+steering                                          ./main.o
 store_char(unsigned char, ring_buffer*)           /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(HardwareSerial.cpp.o)
 strchr                                            /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr6/libc.a(strchr.o)
                                                   /home/kranzrm/workspace/MEGA2560_SerialRead/libcore.a(WString.cpp.o)
